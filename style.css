@@ -1,0 +1,223 @@
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    padding: 100px 8%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: var(--text-soft);
+    font-size: 1rem;
+}
+
+/* =========================
+   SERVICES
+========================= */
+
+.services-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 25px;
+}
+
+.card {
+    background: var(--background-soft);
+
+    border: 1px solid var(--border-soft);
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(126,240,196,0.25);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.card p {
+    color: var(--text-soft);
+    line-height: 1.8;
+}
+
+/* =========================
+   FLEET
+========================= */
+
+.fleet-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(260px, 1fr));
+
+    gap: 30px;
+}
+
+.vehicle-card {
+    background: var(--background-soft);
+
+    border-radius: 22px;
+
+    overflow: hidden;
+
+    border: 1px solid var(--border-soft);
+
+    transition: 0.3s;
+}
+
+.vehicle-card:hover {
+    transform: translateY(-8px);
+}
+
+.vehicle-card img {
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+}
+
+.vehicle-card h3 {
+    padding: 25px 25px 10px;
+}
+
+.vehicle-card p {
+    padding: 0 25px 30px;
+    color: var(--text-soft);
+    line-height: 1.8;
+}
+
+/* =========================
+   SMART QUOTE
+========================= */
+
+.quote-container {
+    max-width: 900px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 20px;
+
+    background: var(--background-soft);
+
+    border-radius: 30px;
+
+    padding: 40px;
+
+    border: 1px solid var(--border-soft);
+}
+
+.quote-container input,
+.quote-container select {
+    padding: 18px;
+
+    border-radius: 14px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    background: #091220;
+
+    color: white;
+
+    font-size: 1rem;
+}
+
+.quote-container button {
+    width: 100%;
+}
+
+/* =========================
+   GALLERY
+========================= */
+
+.gallery-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(240px, 1fr));
+
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 320px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.03);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 80px 8%;
+
+    background: #050d18;
+
+    text-align: center;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: var(--text-soft);
+    margin-bottom: 10px;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .quote-container {
+        padding: 25px;
+    }
+
+}
