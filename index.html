@@ -806,18 +806,27 @@ Executive personnel transport service in El Salvador. We ensure punctuality and 
                             : "For 2 passengers with more than 2 large or 2 small bags (Max 4 total), SUV Mazda CX-5 is required.";
                     }
                 }
-                // 3 Pasajeros: Máximo 3 grandes y 0 pequeñas, o 3 pequeñas. Si no, pasan a la SUV
-                else if (pasajeros === 3) {
-                    const casoSoloGrandes = (maletasGrandes <= 3 && maletasPequenas === 0);
-                    const casoSoloPequenas = (maletasPequenas <= 4 && maletasGrandes === 0);
-                    
-                    if (!casoSoloGrandes && !casoSoloPequenas) {
-                        upgradeASuv = true;
-                        advertenciaEquipaje = idiomaActual === 'es'
-                            ? "Para 3 pasajeros con equipaje mixto o más de 3 maletas, se requiere SUV Mazda CX-5 por seguridad."
-                            : "For 3 passengers with mixed luggage or more than 3 bags, SUV Mazda CX-5 is required.";
-                    }
-                }
+               // 3 Pasajeros: Control flexible de equipaje mixto en el Sedán
+else if (pasajeros === 3) {
+    // REGLA REAL DE ESPACIO:
+    // - Máximo 3 maletas grandes en total.
+    // - Si llevan maletas grandes, la suma total de bultos (Grandes + Pequeñas) no debe pasar de 3 o 4 para que cierre el baúl.
+    const totalMaletas = maletasGrandes + maletasPequenas;
+    
+    // El Sedán aguanta el viaje si:
+    // Caso A: Solo llevan maletas pequeñas (hasta 4)
+    // Caso B: Llevan maletas grandes (máximo 3) y el total combinado no supera los 3 o 4 bultos.
+    const esAptoParaSedan = (maletasGrandes === 0 && maletasPequenas <= 4) || 
+                            (maletasGrandes > 0 && maletasGrandes <= 3 && totalMaletas <= 3);
+
+    // Si NO cumple con las capacidades del Sedán, entonces sí forzamos la SUV
+    if (!esAptoParaSedan) {
+        upgradeASuv = true;
+        advertenciaEquipaje = idiomaActual === 'es'
+            ? "Para 3 pasajeros con exceso de equipaje combinado, se requiere SUV Mazda CX-5 por seguridad."
+            : "For 3 passengers with excess combined luggage, SUV Mazda CX-5 is required.";
+    }
+}
                 // 4 Pasajeros: Solo permitidos en Forte con 4 pequeñas, o 1 grande y 3 pequeñas. (Max 4 maletas total)
                 else if (pasajeros === 4) {
                     if (maletasGrandes > 1 || (maletasGrandes + maletasPequenas > 4)) {
