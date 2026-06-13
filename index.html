@@ -170,14 +170,11 @@
                     <div>
                         <div class="h-48 bg-gray-950 relative overflow-hidden">
                             <img src="./galeria-nombre-8.jpeg" alt="Tour 3 Dias El Salvador" class="w-full h-full object-cover brightness-[0.7]">
-                            <span class="absolute top-4 right-4 bg-emerald-500 text-navy font-bold text-xs px-3 py-1 rounded-full" data-es="Desde $350" data-en="From $350">Desde $350</span>
+                            <span class="absolute top-4 right-4 bg-emerald-500 text-navy font-bold text-xs px-3 py-1 rounded-full" data-es="Desde $375" data-en="From $375">Desde $375</span>
                         </div>
                         <div class="p-6">
-                            <h4 class="font-bold text-xl text-white mb-2" data-es="📍Escape Clásico (3 Días)" data-en="📍Classic Escape (3 Days)">📍 Escape Clásico (3 Días)</h4>
-                            <p class="text-xs text-neon font-bold mb-4" data-es="Cultura, Naturaleza y Cero Estrés
-(Incluye el Tour Sivar + 2 Destinos)" data-en="Culture, Nature, and Zero Stress
-(Includes the Sivar Tour + 2 Destinations)">Cultura, Naturaleza y Cero Estrés
-(Incluye el Tour Sivar + 2 Destinos)</p>
+                            <h4 class="font-bold text-xl text-white mb-2" data-es="📍 Visitamos el Cerro Verde (3 Días)" data-en="📍 We visited Cerro Verde. (3 Days)">📍 Visitamos el Cerro Verde (3 Días)</h4>
+                            <p class="text-xs text-neon font-bold mb-4" data-es="Incluye el Tour Sivar + 2 Destinos" data-en="Includes the Sivar Tour + 2 Destinations">Incluye el Tour Sivar + 2 Destinos</p>
                             <p class="text-xs text-gray-400 mb-6 leading-relaxed" data-es="La combinación perfecta para un fin de semana largo. Vive el contraste de la capital moderna y la tranquilidad de la montaña sin preocuparte por manejar o usar mapas." data-en="The perfect combination for a long weekend. Experience the contrast between the modern capital and the tranquility of the mountains, without worrying about driving or using maps.">
                                 La combinación perfecta para un fin de semana largo. Vive el contraste de la capital moderna y la tranquilidad de la montaña sin preocuparte por manejar o usar mapas.
                             </p>
@@ -603,8 +600,8 @@ Executive personnel transport service in El Salvador. We ensure punctuality and 
         // Tarifas base de los Tours Privados para 1-2 personas
         const tarifasTours = {
             "Tour Privado 1 Día": { sedan: 120, suv: 140 },
-            "Tour Privado 3 Días": { sedan: 350, suv: 425 },
-            "Tour Privado 5 Días": { sedan: 550, suv: 600 }
+            "Tour Privado 3 Días": { sedan: 375, suv: 425 },
+            "Tour Privado 5 Días": { sedan: 575, suv: 625 }
         };
 
         let idiomaActual = 'es';
@@ -876,9 +873,9 @@ Executive personnel transport service in El Salvador. We ensure punctuality and 
 
                 // Reglas de pasajeros extra en tours
                 if (pasajeros === 3) {
-                    precioBase += 15;
+                    precioBase += 20;
                 } else if (pasajeros === 4) {
-                    precioBase += 25;
+                    precioBase += 35;
                 }
 
                 precio = Math.round(precioBase); // Removido el recargo de equipaje de $1.00
