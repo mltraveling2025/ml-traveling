@@ -842,6 +842,7 @@ Executive personnel transport service in El Salvador. We ensure punctuality and 
                 // Límite estricto de maletas grandes en SUV
                 if (maletasGrandes > 4) {
                     maletasGrandes = 4;
+                     maletasPequenas = 0;
                     document.getElementById("maletas-grandes").value = 4;
                     mostrarToast(
                         idiomaActual === 'es'
@@ -851,7 +852,7 @@ Executive personnel transport service in El Salvador. We ensure punctuality and 
                 }
 
                 if (pasajeros === 4 && maletasGrandes === 4 && maletasPequenas > 0) {
-                    maletasPequenas > 0;
+                    maletasPequenas = 0;
                     document.getElementById("maletas-pequenas").value = 0;
                     mostrarToast(
                         idiomaActual === 'es'
