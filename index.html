@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ML Traveling - Transporte Ejecutivo El Salvador</title>
+    <title>ML Traveling - Tours Privados y Transporte Ejecutivo El Salvador</title>
     <!-- Cargando Tailwind CSS para diseño moderno responsivo -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     
     <style>
         :root {
-            /* Variables de color de marca: Azul Marino y Verde Menta/Neón */
+            /* Variables de color de marca: Azul Marino, Verde Neón y Verde Menta */
             --navy: #0a192f;
             --neon-green: #39FF14;
             --mint: #98FF98;
@@ -71,7 +71,7 @@
                 </svg>
                 <div>
                     <h1 class="text-white font-black text-2xl leading-none tracking-tight">ML <span class="text-neon">TRAVELING</span></h1>
-                    <p class="text-[9px] text-mint tracking-widest uppercase font-bold" data-es="VIVE LA EXPERIENCIA" data-en="LIVE THE EXPERIENCE">VIVE LA EXPERIENCIA</p>
+                    <p class="text-[9px] text-mint tracking-widest uppercase font-bold" data-es="TOURS PRIVADOS & TRASLADOS" data-en="PRIVATE TOURS & TRANSFERS">TOURS PRIVADOS & TRASLADOS</p>
                 </div>
             </div>
             
@@ -83,10 +83,10 @@
                 </div>
 
                 <div class="hidden lg:flex gap-6 text-white text-sm font-semibold">
-                    <a href="#experiencia" class="hover:text-neon transition" data-es="Experiencia" data-en="Experience">Experiencia</a>
-                    <a href="#cotizador" class="hover:text-neon transition" data-es="Tarifas" data-en="Rates">Tarifas</a>
-                    <a href="#galeria" class="hover:text-neon transition" data-es="Galería" data-en="Gallery">Galería</a>
-                    <a href="#flota" class="hover:text-neon transition" data-es="Flota" data-en="Fleet">Flota</a>
+                    <a href="#tours" class="hover:text-neon transition" data-es="Tours Privados" data-en="Private Tours">Tours Privados</a>
+                    <a href="#cotizador" class="hover:text-neon transition" data-es="Reservas" data-en="Bookings">Reservas</a>
+                    <a href="#galeria" class="hover:text-neon transition" data-es="Destinos" data-en="Destinations">Destinos</a>
+                    <a href="#flota" class="hover:text-neon transition" data-es="Flota" data-en="Our Fleet">Flota</a>
                 </div>
 
                 <a href="https://wa.me/50374694306" target="_blank" class="btn-primary px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider">
@@ -96,148 +96,243 @@
         </div>
     </nav>
 
-    <!-- Hero / Presentación de Portada -->
-    <header class="relative h-[85vh] flex items-center justify-center text-center text-white overflow-hidden">
-        <!-- Imagen de portada real de Marvin López (Fallback de El Salvador) -->
-        <img src="https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?auto=format&fit=crop&w=1600&q=80" alt="Marvin Lopez en El Salvador" class="absolute inset-0 w-full h-full object-cover brightness-[0.3]">
+    <!-- Hero / Lanzamiento de la temporada de Tours Privados -->
+    <header class="relative h-[90vh] flex items-center justify-center text-center text-white overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1600&q=80" alt="Tours en El Salvador" class="absolute inset-0 w-full h-full object-cover brightness-[0.25]">
         <div class="absolute inset-0 bg-gradient-to-t from-[#050c16] via-transparent to-[#050c16]/70"></div>
         
         <div class="relative z-10 px-4 max-w-4xl mx-auto">
-            <span class="bg-emerald-500/20 text-mint text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest border border-emerald-500/30 inline-block mb-4" data-es="Puntualidad y Seguridad en El Salvador" data-en="Punctuality & Safety in El Salvador">
-                Puntualidad y Seguridad en El Salvador
+            <span class="bg-emerald-500/20 text-mint text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest border border-emerald-500/30 inline-block mb-4" data-es="Temporada Mundial & Vacaciones de Agosto 2026" data-en="World Cup Season & August Vacations 2026">
+                Temporada Mundial & Vacaciones de Agosto 2026
             </span>
-            <h2 class="text-4xl md:text-7xl font-black mb-6 tracking-tight leading-none" data-es="VIVE LA EXPERIENCIA EJECUTIVA" data-en="LIVE THE EXECUTIVE EXPERIENCE">
-                VIVE LA EXPERIENCIA EJECUTIVA
+            <h2 class="text-4xl md:text-7xl font-black mb-6 tracking-tight leading-none text-white" data-es="DESCUBRE EL SALVADOR CON TU CHOFER PRIVADO" data-en="DISCOVER EL SALVADOR WITH YOUR PRIVATE CHAUFFEUR">
+                DESCUBRE EL SALVADOR CON TU CHOFER PRIVADO
             </h2>
-            <p class="text-base md:text-lg text-gray-300 mb-8 max-w-2xl mx-auto font-light" data-es="Resolvemos tu traslado ejecutivo y de personal hacia todo el territorio nacional y fronteras. Vehículos climatizados con atención preferencial." data-en="We solve your executive and staff transfers across El Salvador and borders. Air-conditioned vehicles with premier first-class hospitality.">
-                Resolvemos tu traslado ejecutivo y de personal hacia todo el territorio nacional y fronteras. Vehículos climatizados con atención preferencial.
+            <p class="text-base md:text-lg text-gray-300 mb-8 max-w-2xl mx-auto font-light" data-es="Tours VIP personalizados de 1 a 5 días en vehículos climatizados (Kia Forte y SUV Mazda CX-5). Diseñamos tu itinerario perfecto con total seguridad y atención preferencial." data-en="Custom 1 to 5-day VIP tours in premium air-conditioned vehicles (Kia Forte & SUV Mazda CX-5). We design your perfect itinerary with maximum safety and first-class hospitality.">
+                Tours VIP personalizados de 1 a 5 días en vehículos climatizados (Kia Forte y SUV Mazda CX-5). Diseñamos tu itinerario perfecto con total seguridad y atención preferencial.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a href="#cotizador" class="btn-primary px-8 py-4 rounded-xl font-bold text-base w-full sm:w-auto text-center" data-es="Cotizar mi Traslado" data-en="Quote my Transfer">
-                    Cotizar mi Traslado
+                <a href="#tours" class="btn-primary px-8 py-4 rounded-xl font-bold text-base w-full sm:w-auto text-center" data-es="Ver Planes de Tours" data-en="View Tour Packages">
+                    Ver Planes de Tours
                 </a>
-                <a href="https://wa.me/50374694306" target="_blank" class="border border-white/20 hover:border-neon hover:text-neon text-white px-8 py-4 rounded-xl font-bold text-base transition duration-300 w-full sm:w-auto flex items-center justify-center gap-2">
-                    <span>WhatsApp 7469-4306</span>
+                <a href="#cotizador" class="border border-white/20 hover:border-neon hover:text-neon text-white px-8 py-4 rounded-xl font-bold text-base transition duration-300 w-full sm:w-auto flex items-center justify-center gap-2" data-es="Cotizar Traslado Aeropuerto" data-en="Quote Airport Transfer">
+                    Cotizar Traslado Aeropuerto
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- Ventajas Premium -->
-    <section id="experiencia" class="py-16 bg-[#0a192f]/40 relative z-20">
+    <!-- TOURS PRIVADOS DESTACADOS -->
+    <section id="tours" class="py-24 bg-[#0a192f]/40 relative z-20 border-b border-emerald-500/15">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="p-6 bg-[#0a192f]/80 rounded-2xl border border-emerald-500/10 text-center hover:border-neon transition duration-300">
-                    <span class="text-4xl block mb-3">👔</span>
-                    <h4 class="font-bold text-white text-lg mb-2" data-es="Conductores Uniformados" data-en="Uniformed Drivers">Conductores Uniformados</h4>
-                    <p class="text-xs text-gray-400" data-es="Seguridad total con nuestro equipo calificado de Grupo 3." data-en="Total security with our highly trained Grupo 3 team.">Seguridad total con nuestro equipo calificado de Grupo 3.</p>
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold text-neon uppercase tracking-widest" data-es="Experiencias de Alto Nivel" data-en="High-End Experiences">Experiencias de Alto Nivel</span>
+                <h3 class="text-3xl md:text-5xl font-black text-white mt-2 mb-4" data-es="Planes de Tours Privados Multi-Día" data-en="Multi-Day Private Tour Packages">Planes de Tours Privados Multi-Día</h3>
+                <p class="text-sm text-gray-400 font-light" data-es="Olvídate del estrés de manejar o buscar parqueo. Te llevamos a los mejores rincones turísticos de El Salvador en unidades impecables, esperándote en cada destino." data-en="Forget the stress of driving or looking for parking. We take you to the best tourist spots in El Salvador in pristine units, waiting for you at each stop.">
+                    Olvídate del estrés de manejar o buscar parqueo. Te llevamos a los mejores rincones turísticos de El Salvador en unidades impecables, esperándote en cada destino.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                
+                <!-- Tour 1 Día -->
+                <div class="bg-navy rounded-3xl border border-emerald-500/10 hover:border-neon transition duration-300 overflow-hidden flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 bg-gray-950 relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?auto=format&fit=crop&w=600&q=80" alt="Tour 1 Dia El Salvador" class="w-full h-full object-cover brightness-[0.7]">
+                            <span class="absolute top-4 right-4 bg-emerald-500 text-navy font-bold text-xs px-3 py-1 rounded-full" data-es="Desde $120/día" data-en="From $120/day">Desde $120/día</span>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="font-bold text-xl text-white mb-2" data-es="Tour Express (1 Día)" data-en="Express Tour (1 Day)">Tour Express (1 Día)</h4>
+                            <p class="text-xs text-neon font-bold mb-4" data-es="Flexibilidad Absoluta" data-en="Absolute Flexibility">Flexibilidad Absoluta</p>
+                            <p class="text-xs text-gray-400 mb-6 leading-relaxed" data-es="Ideal para escalas de vuelo o escapadas rápidas. Elige una de nuestras rutas icónicas: Volcán + Lago de Coatepeque, la mística Ruta de las Flores, o el ambiente de Surf City El Tunco." data-en="Ideal for layovers or quick getaways. Choose one of our iconic routes: Volcano + Lake Coatepeque, the mystical Ruta de las Flores, or the vibrant Surf City El Tunco.">
+                                Ideal para escalas de vuelo o escapadas rápidas. Elige una de nuestras rutas icónicas: Volcán + Lago de Coatepeque, la mística Ruta de las Flores, o el ambiente de Surf City El Tunco.
+                            </p>
+                            <ul class="text-[11px] text-mint space-y-2 border-t border-gray-800 pt-4">
+                                <li>✨ Chofer privado exclusivo por 10 horas</li>
+                                <li>💧 Agua embotellada helada ilimitada</li>
+                                <li>🚗 Recogida y retorno en tu hotel o aeropuerto</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <button onclick="seleccionarTourFormulario('Tour Privado 1 Día')" class="w-full btn-primary py-3 rounded-xl font-bold text-xs uppercase tracking-wider text-center block" data-es="Reservar Tour 1 Día" data-en="Book 1-Day Tour">
+                            Reservar Tour 1 Día
+                        </button>
+                    </div>
                 </div>
-                <div class="p-6 bg-[#0a192f]/80 rounded-2xl border border-emerald-500/10 text-center hover:border-neon transition duration-300">
-                    <span class="text-4xl block mb-3">🚗</span>
-                    <h4 class="font-bold text-white text-lg mb-2" data-es="Flota Impecable" data-en="Impeccable Fleet">Flota Impecable</h4>
-                    <p class="text-xs text-gray-400" data-es="Unidades sumamente limpias, climatizadas y modernas." data-en="Spotless, air-conditioned, and modern vehicles.">Unidades sumamente limpias, climatizadas y modernas.</p>
+
+                <!-- Tour 3 Días -->
+                <div class="bg-navy rounded-3xl border-2 border-emerald-500 hover:border-neon transition duration-300 overflow-hidden flex flex-col justify-between relative">
+                    <span class="absolute top-4 left-4 bg-neon-green text-navy font-black text-[9px] uppercase tracking-widest px-3 py-1 rounded-full z-10" data-es="RECOMENDADO VIP" data-en="VIP RECOMMENDED">RECOMENDADO VIP</span>
+                    <div>
+                        <div class="h-48 bg-gray-950 relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=600&q=80" alt="Tour 3 Dias El Salvador" class="w-full h-full object-cover brightness-[0.7]">
+                            <span class="absolute top-4 right-4 bg-emerald-500 text-navy font-bold text-xs px-3 py-1 rounded-full" data-es="Desde $350" data-en="From $350">Desde $350</span>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="font-bold text-xl text-white mb-2" data-es="Escape Clásico (3 Días)" data-en="Classic Escape (3 Days)">Escape Clásico (3 Días)</h4>
+                            <p class="text-xs text-neon font-bold mb-4" data-es="Volcanes, Playa y Tradición" data-en="Volcanoes, Beach & Heritage">Volcanes, Playa y Tradición</p>
+                            <p class="text-xs text-gray-400 mb-6 leading-relaxed" data-es="La combinación perfecta para explorar la esencia del país en un fin de semana extendido o feriado. Incluye traslados completos a Ataco, Volcán de Santa Ana, Lago de Coatepeque y Surf City." data-en="The perfect combo to explore the essence of the country during an extended weekend. Includes full transfers to Ataco, Santa Ana Volcano, Lake Coatepeque, and Surf City.">
+                                La combinación perfecta para explorar la esencia del país en un fin de semana extendido o feriado. Incluye traslados completos a Ataco, Volcán de Santa Ana, Lago de Coatepeque y Surf City.
+                            </p>
+                            <ul class="text-[11px] text-mint space-y-2 border-t border-gray-800 pt-4">
+                                <li>✨ Vehículo asignado full-time (Mazda SUV sugerida)</li>
+                                <li>☕ Itinerario flexible con paradas en miradores de café</li>
+                                <li>🛡️ Soporte, seguridad y guía de paradas locales</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <button onclick="seleccionarTourFormulario('Tour Privado 3 Días')" class="w-full btn-primary py-3 rounded-xl font-bold text-xs uppercase tracking-wider text-center block" data-es="Reservar Tour 3 Días" data-en="Book 3-Day Tour">
+                            Reservar Tour 3 Días
+                        </button>
+                    </div>
                 </div>
-                <div class="p-6 bg-[#0a192f]/80 rounded-2xl border border-emerald-500/10 text-center hover:border-neon transition duration-300">
-                    <span class="text-4xl block mb-3">💧</span>
-                    <h4 class="font-bold text-white text-lg mb-2" data-es="Amenidades a Bordo" data-en="Amenities Onboard">Amenidades a Bordo</h4>
-                    <p class="text-xs text-gray-400" data-es="Agua embotellada helada y música de tu preferencia." data-en="Chilled bottled water and your preferred music.">Agua embotellada helada y música de tu preferencia.</p>
+
+                <!-- Tour 5 Días -->
+                <div class="bg-navy rounded-3xl border border-emerald-500/10 hover:border-neon transition duration-300 overflow-hidden flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 bg-gray-950 relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?auto=format&fit=crop&w=600&q=80" alt="Tour 5 Dias El Salvador" class="w-full h-full object-cover brightness-[0.7]">
+                            <span class="absolute top-4 right-4 bg-emerald-500 text-navy font-bold text-xs px-3 py-1 rounded-full" data-es="Desde $550" data-en="From $550">Desde $550</span>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="font-bold text-xl text-white mb-2" data-es="Aventura Completa (5 Días)" data-en="Complete Adventure (5 Days)">Aventura Completa (5 Días)</h4>
+                            <p class="text-xs text-neon font-bold mb-4" data-es="La Experiencia Definitiva" data-en="The Ultimate Experience">La Experiencia Definitiva</p>
+                            <p class="text-xs text-gray-400 mb-6 leading-relaxed" data-es="Ideal para familias o parejas del exterior que buscan conocer todo El Salvador de este a oeste. Recorremos Suchitoto colonial, Volcanes, Laberinto de Albania, Playas de La Libertad y el impactante oriente del país." data-en="Ideal for families or couples from abroad looking to experience El Salvador from East to West. We visit Suchitoto, Volcanoes, Albania's Labyrinth, La Libertad beaches, and the stunning East side.">
+                                Ideal para familias o parejas del exterior que buscan conocer todo El Salvador de este a oeste. Recorremos Suchitoto colonial, Volcanes, Laberinto de Albania, Playas de La Libertad y el impactante oriente del país.
+                            </p>
+                            <ul class="text-[11px] text-mint space-y-2 border-t border-gray-800 pt-4">
+                                <li>✨ SUV Ejecutiva Mazda CX-5 climatizada</li>
+                                <li>🚐 Coordinación total de maletas y paradas seguras</li>
+                                <li>👨‍✈️ Chofer VIP bilingüe opcional / Asesoría de hoteles</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <button onclick="seleccionarTourFormulario('Tour Privado 5 Días')" class="w-full btn-primary py-3 rounded-xl font-bold text-xs uppercase tracking-wider text-center block" data-es="Reservar Tour 5 Días" data-en="Book 5-Day Tour">
+                            Reservar Tour 5 Días
+                        </button>
+                    </div>
                 </div>
-                <div class="p-6 bg-[#0a192f]/80 rounded-2xl border border-emerald-500/10 text-center hover:border-neon transition duration-300">
-                    <span class="text-4xl block mb-3">⏱️</span>
-                    <h4 class="font-bold text-white text-lg mb-2" data-es="Monitoreo de Vuelo" data-en="Flight Tracking">Monitoreo de Vuelo</h4>
-                    <p class="text-xs text-gray-400" data-es="Seguimos tu vuelo en tiempo real para esperarte a tiempo." data-en="We monitor your flight status in real time to ensure prompt pickup.">Seguimos tu vuelo en tiempo real para esperarte a tiempo.</p>
-                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Cotizador Inteligente -->
+    <!-- Cotizador Inteligente Unificado (Tours y Traslados) -->
     <section id="cotizador" class="py-20 container mx-auto px-4 relative z-20">
-        <div class="max-w-5xl mx-auto glass-panel rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row border border-emerald-500/10">
+        <div class="max-w-5xl mx-auto glass-panel rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
             
             <!-- Formulario de Entrada -->
             <div class="p-8 md:w-1/2">
-                <h3 class="text-2xl font-black text-white mb-2" data-es="Calcula tu Tarifa" data-en="Calculate Your Fare">Calcula tu Tarifa</h3>
-                <p class="text-xs text-gray-400 mb-6" data-es="Completa los campos para generar tu cotización al instante." data-en="Fill in the fields to generate your custom quote instantly.">Completa los campos para generar tu cotización al instante.</p>
+                <h3 class="text-2xl font-black text-white mb-2" data-es="Calculador de Tarifas VIP" data-en="VIP Fare Calculator">Calculador de Tarifas VIP</h3>
+                <p class="text-xs text-gray-400 mb-6" data-es="Elige entre un Traslado de Aeropuerto o un Tour Privado Multi-Día." data-en="Choose between an Airport Transfer or a Multi-Day Private Tour.">Elige entre un Traslado de Aeropuerto o un Tour Privado Multi-Día.</p>
                 
                 <div class="space-y-4 text-gray-200">
+                    
+                    <!-- Tipo de Servicio (Tours o Traslados) -->
                     <div>
-                        <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="PUNTO DE PARTIDA (RECOMENDADO: AEROPUERTO)" data-en="STARTING POINT (RECOMMENDED: AIRPORT)">PUNTO DE PARTIDA (RECOMENDADO: AEROPUERTO)</label>
-                        <input type="text" id="origen" value="Aeropuerto Internacional Monseñor Romero" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white" readonly>
+                        <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="TIPO DE SERVICIO" data-en="SERVICE TYPE">TIPO DE SERVICIO</label>
+                        <select id="tipo-servicio" onchange="cambiarTipoServicio()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white font-bold">
+                            <option value="traslado" data-es="Traslado al Aeropuerto / Departamentos" data-en="Airport / Department Transfer">Traslado al Aeropuerto / Departamentos</option>
+                            <option value="tour" data-es="Tour Privado Personalizado" data-en="Custom Private Tour">Tour Privado Personalizado</option>
+                        </select>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-4">
+                    <!-- Campos Dinámicos para TRASLADOS -->
+                    <div id="seccion-traslado" class="space-y-4">
                         <div>
-                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="DEPARTAMENTO" data-en="DEPARTMENT">DEPARTAMENTO</label>
-                            <select id="departamento" onchange="actualizarMunicipios()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
-                                <option value="" data-es="Selecciona..." data-en="Select...">Selecciona...</option>
-                                <option value="San Salvador">San Salvador</option>
-                                <option value="La Libertad">La Libertad</option>
-                                <option value="Santa Ana">Santa Ana</option>
-                                <option value="Sonsonate">Sonsonate</option>
-                                <option value="Ahuachapán">Ahuachapán</option>
-                                <option value="La Paz">La Paz</option>
-                                <option value="Cuscatlán">Cuscatlán</option>
-                                <option value="San Vicente">San Vicente</option>
-                                <option value="Cabañas">Cabañas</option>
-                                <option value="Chalatenango">Chalatenango</option>
-                                <option value="Usulután">Usulután</option>
-                                <option value="San Miguel">San Miguel</option>
-                                <option value="Morazán">Morazán</option>
-                                <option value="La Unión">La Unión</option>
-                            </select>
+                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="PUNTO DE PARTIDA (RECOMENDADO: AEROPUERTO)" data-en="STARTING POINT (RECOMMENDED: AIRPORT)">PUNTO DE PARTIDA (RECOMENDADO: AEROPUERTO)</label>
+                            <input type="text" id="origen" value="Aeropuerto Internacional Monseñor Romero" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white" readonly>
                         </div>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="DEPARTAMENTO" data-en="DEPARTMENT">DEPARTAMENTO</label>
+                                <select id="departamento" onchange="actualizarMunicipios()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
+                                    <option value="" data-es="Selecciona..." data-en="Select...">Selecciona...</option>
+                                    <option value="San Salvador">San Salvador</option>
+                                    <option value="La Libertad">La Libertad</option>
+                                    <option value="Santa Ana">Santa Ana</option>
+                                    <option value="Sonsonate">Sonsonate</option>
+                                    <option value="Ahuachapán">Ahuachapán</option>
+                                    <option value="San Miguel">San Miguel</option>
+                                    <option value="La Unión">La Unión</option>
+                                    <option value="Chalatenango">Chalatenango</option>
+                                    <option value="Cuscatlán">Cuscatlán</option>
+                                    <option value="Cabañas">Cabañas</option>
+                                    <option value="San Vicente">San Vicente</option>
+                                    <option value="La Paz">La Paz</option>
+                                    <option value="Usulután">Usulután</option>
+                                    <option value="Morazán">Morazán</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="DESTINO / DISTRITO" data-en="DESTINATION / DISTRICT">DESTINO / DISTRITO</label>
+                                <select id="destino" onchange="calcularTarifa()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
+                                    <option value="Destino" data-es="Selecciona dpto..." data-en="Select dept...">Selecciona dpto...</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Campos Dinámicos para TOURS -->
+                    <div id="seccion-tour" class="space-y-4 hidden">
                         <div>
-                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="DESTINO / DISTRITO" data-en="DESTINATION">DESTINO / DISTRITO</label>
-                            <select id="destino" onchange="calcularTarifa()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
-                                <option value="Destino" data-es="Selecciona dpto..." data-en="Select dept...">Selecciona dpto...</option>
+                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="PAQUETE DE TOUR PRIVADO" data-en="PRIVATE TOUR PACKAGE">PAQUETE DE TOUR PRIVADO</label>
+                            <select id="tour-seleccionado" onchange="calcularTarifa()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white font-bold">
+                                <option value="Tour Privado 1 Día" data-es="Tour Express (1 Día) - $120.00 Base" data-en="Express Tour (1 Day) - $120.00 Base">Tour Express (1 Día) - $120.00 Base</option>
+                                <option value="Tour Privado 3 Días" data-es="Escape Clásico (3 Días) - $350.00 Base" data-en="Classic Escape (3 Days) - $350.00 Base">Escape Clásico (3 Días) - $350.00 Base</option>
+                                <option value="Tour Privado 5 Días" data-es="Aventura Completa (5 Días) - $550.00 Base" data-en="Complete Adventure (5 Days) - $550.00 Base">Aventura Completa (5 Días) - $550.00 Base</option>
                             </select>
                         </div>
                     </div>
 
                     <!-- Tipo de Vehículo -->
                     <div>
-                        <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="TIPO DE VEHÍCULO" data-en="VEHICLE TYPE">TIPO DE VEHÍCULO</label>
-                        <select id="vehiculo" onchange="calcularTarifa()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
-                            <option value="Vehículo" data-es="Selecciona..." data-en="Select...">Selecciona...</option>
-                            <option value="Kia Forte" data-es="Kia Forte (Sedán Ejecutivo 1-3 Pax)" data-en="Kia Forte (Executive Sedan 1-3 Pax)">Kia Forte (Sedán Ejecutivo 1-3 Pax)</option>
-                            <option value="Mazda CX5" data-es="Mazda CX-5 (SUV Confort 1-4 Pax)" data-en="Mazda CX-5 (Premium SUV 1-4 Pax)">Mazda CX-5 (SUV Confort 1-4 Pax)</option>
-                            <option value="Microbus" data-es="Microbús Hiace / H1 (5+ Pax / Disponibilidad)" data-en="Hiace / H1 Microbus (5+ Pax / Availability)">Microbús Hiace / H1 (5+ Pax / Disponibilidad)</option>
+                        <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="VEHÍCULO PREFERIDO" data-en="PREFERRED VEHICLE">VEHÍCULO PREFERIDO</label>
+                        <select id="vehiculo" onchange="calcularTarifa()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white font-bold">
+                            <option value="Kia Forte" data-es="Kia Forte (Sedán Ejecutivo - Máx 4 personas)" data-en="Kia Forte (Executive Sedan - Max 4 pax)">Kia Forte (Sedán Ejecutivo - Máx 4 personas)</option>
+                            <option value="Mazda CX5" data-es="Mazda CX-5 (SUV Confort Premium - Máx 4 personas)" data-en="Mazda CX-5 (Premium SUV - Max 4 pax)">Mazda CX-5 (SUV Confort Premium - Máx 4 personas)</option>
+                            <option value="Microbus" data-es="Microbús Hiace / H1 (Van Grupal - Consultar Disponibilidad)" data-en="Hiace / H1 Microbus (Group Van - Ask Availability)">Microbús Hiace / H1 (Van Grupal - Consultar Disponibilidad)</option>
                         </select>
                     </div>
 
                     <div class="grid grid-cols-2 gap-4">
                         <div>
-                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="FECHA DE TRASLADO" data-en="DATE OF TRANSFER">FECHA DE TRASLADO</label>
+                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="FECHA DE INICIO" data-en="START DATE">FECHA DE INICIO</label>
                             <input type="date" id="fecha" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
                         </div>
                         <div>
-                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="HORA DE TRASLADO" data-en="TIME OF TRANSFER">HORA DE TRASLADO</label>
+                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="HORA" data-en="TIME">HORA</label>
                             <input type="time" id="hora" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-4">
+                    <!-- DISTRIBUCIÓN AVANZADA: Pasajeros y Equipaje Independiente -->
+                    <div class="grid grid-cols-3 gap-2">
                         <div>
-                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="CANTIDAD PASAJEROS" data-en="PASSENGER COUNT">CANTIDAD PASAJEROS</label>
+                            <label class="block text-[9px] font-bold tracking-wider text-mint uppercase mb-1 leading-none" data-es="PASAJEROS" data-en="PASSENGERS">PASAJEROS</label>
                             <input type="number" id="pasajeros" min="1" max="15" value="1" oninput="calcularTarifa()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
                         </div>
+                        <div id="div-maletas-grandes">
+                            <label class="block text-[9px] font-bold tracking-wider text-mint uppercase mb-1 leading-none" data-es="MALETAS GD/MD" data-en="LG/MD BAGS">MALETAS GD/MD</label>
+                            <input type="number" id="maletas-grandes" min="0" max="10" value="0" oninput="calcularTarifa()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
+                        </div>
                         <div>
-                            <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="EQUIPAJE" data-en="LUGGAGE">EQUIPAJE</label>
-                            <select id="equipaje" onchange="calcularTarifa()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
-                                <option value="S" data-es="Pequeño (Mano)" data-en="Small (Carry-on)">Pequeño (Mano)</option>
-                                <option value="M" data-es="Mediano (Maletas Normales)" data-en="Medium (Standard Bags)">Mediano (Maletas Normales)</option>
-                                <option value="L" data-es="Grande (Equipaje Voluminoso)" data-en="Large (Heavy Luggage)">Grande (Equipaje Voluminoso)</option>
-                            </select>
+                            <label class="block text-[9px] font-bold tracking-wider text-mint uppercase mb-1 leading-none" data-es="MALETAS DE MANO" data-en="CARRY-ON">MALETAS DE MANO</label>
+                            <input type="number" id="maletas-pequenas" min="0" max="10" value="0" oninput="calcularTarifa()" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
                         </div>
                     </div>
 
-                    <div>
+                    <div id="seccion-vuelo">
                         <label class="block text-[10px] font-bold tracking-widest text-mint uppercase mb-1" data-es="# DE VUELO (SI APLICA)" data-en="FLIGHT # (IF APPLICABLE)"># DE VUELO (SI APLICA)</label>
                         <input type="text" id="vuelo" placeholder="AV456" class="w-full p-3 bg-gray-950 rounded-xl border border-gray-800 focus:border-neon outline-none text-sm text-white">
                     </div>
 
-                    <!-- Botón de acción -->
+                    <!-- Botón Unificado de Envío -->
                     <button id="botonWhatsapp" onclick="enviarReserva()" class="w-full btn-primary py-4 rounded-xl font-bold uppercase tracking-wider mt-4 text-sm shadow-lg">
                         Reservar y Solicitar Link de Pago
                     </button>
@@ -247,12 +342,12 @@
             <!-- Panel de Precios e Información de Depósito -->
             <div class="p-8 md:w-1/2 bg-gradient-to-br from-gray-950 to-[#0a192f] text-white flex flex-col justify-between border-t md:border-t-0 md:border-l border-emerald-500/20">
                 <div>
-                    <span class="text-xs font-bold text-neon uppercase tracking-wider block mb-2" data-es="Tarifa Estimada" data-en="Estimated Price">Tarifa Estimada</span>
-                    <div id="resultadoPrecio" class="text-5xl md:text-6xl font-black text-white tracking-tight mb-2">$0.00</div>
+                    <span id="label-tarifa" class="text-xs font-bold text-neon uppercase tracking-wider block mb-2" data-es="Tarifa Estimada del Servicio" data-en="Estimated Service Fare">Tarifa Estimada del Servicio</span>
+                    <div id="resultadoPrecio" class="text-4xl md:text-5xl font-black text-white tracking-tight mb-2">$0.00</div>
                     
-                    <!-- Alerta de disponibilidad para microbús -->
-                    <p id="alerta-microbus" class="text-[10px] text-yellow-400 font-bold mb-4 uppercase tracking-wider hidden" data-es="⚠️ SUJETO A DISPONIBILIDAD DE FLOTA GRUPO 3" data-en="⚠️ SUBJECT TO FLEET AVAILABILITY GROUP 3">
-                        ⚠️ SUJETO A DISPONIBILIDAD DE FLOTA GRUPO 3
+                    <!-- Sujeta a disponibilidad flotante -->
+                    <p id="alerta-microbus" class="text-[10px] text-yellow-400 font-bold mb-4 uppercase tracking-wider hidden" data-es="⚠️ SERVICIO DE MICROBÚS SUJETO A DISPONIBILIDAD DE FLOTA" data-en="⚠️ VAN SERVICE SUBJECT TO FLEET AVAILABILITY">
+                        ⚠️ SERVICIO DE MICROBÚS SUJETO A DISPONIBILIDAD DE FLOTA
                     </p>
 
                     <!-- Caja de Depósito Amigable y Profesional -->
@@ -260,13 +355,13 @@
                         <p class="text-xs text-mint font-bold mb-1" data-es="TU RESERVA EXCLUSIVA DE CONFIANZA" data-en="YOUR EXCLUSIVE SECURE BOOKING">
                             TU RESERVA EXCLUSIVA DE CONFIANZA
                         </p>
-                        <p id="resultadoDeposito" class="text-[11px] text-gray-300 leading-relaxed" data-es="Para brindarte el servicio de alta calidad, conductor uniformado y vehículo impecable que mereces, coordinamos tu traslado mediante un anticipo del 50%. En caso de imprevistos, te ayudamos gustosamente a reprogramar tu viaje con previo aviso." data-en="To guarantee your high-quality service, uniformed driver, and spotless vehicle, we coordinate your transfer with a 50% advance deposit. In case of unexpected changes, we are happy to assist you in rescheduling your trip.">
-                            Para brindarte el servicio de alta calidad, conductor uniformado y vehículo impecable que mereces, coordinamos tu traslado mediante un anticipo del 50%. En caso de imprevistos, te ayudamos gustosamente a reprogramar tu viaje con previo aviso.
+                        <p id="resultadoDeposito" class="text-[11px] text-gray-300 leading-relaxed" data-es="Para brindarte el servicio de alta calidad, conductor uniformado y vehículo impecable que mereces, coordinamos tu traslado o tour mediante un anticipo del 50%. En caso de imprevistos, te ayudamos gustosamente a reprogramar tu viaje con previo aviso." data-en="To guarantee your high-quality service, uniformed driver, and spotless vehicle, we coordinate your transfer or tour with a 50% advance deposit. In case of unexpected changes, we are happy to assist you in rescheduling your trip.">
+                            Para brindarte el servicio de alta calidad, conductor uniformado y vehículo impecable que mereces, coordinamos tu traslado o tour mediante un anticipo del 50%. En caso de imprevistos, te ayudamos gustosamente a reprogramar tu viaje con previo aviso.
                         </p>
                     </div>
                 </div>
 
-                <!-- Google Maps Dinámico -->
+                <!-- Google Maps Dinámico o Ilustración del Tour -->
                 <div class="rounded-2xl overflow-hidden h-44 border border-emerald-500/20 relative">
                     <iframe 
                         id="google-map"
@@ -293,16 +388,16 @@
         </div>
     </section>
 
-    <!-- Galería -->
-    <section id="galeria" class="bg-gray-950 py-20 relative z-20">
+    <!-- Galería de Experiencias Reales -->
+    <section id="galeria" class="bg-gray-950 py-20 relative z-20 border-b border-emerald-500/15">
         <div class="container mx-auto px-4">
-            <h3 class="text-3xl font-black text-center text-white mb-2" data-es="Galería de Experiencias Reales" data-en="Real Experience Gallery">Galería de Experiencias Reales</h3>
-            <p class="text-center text-gray-400 text-sm mb-12" data-es="Fotografías reales tomadas a lo largo de nuestro año de servicio ejecutivo." data-en="Real photos captured during our executive service year.">Fotografías reales tomadas a lo largo de nuestro año de servicio ejecutivo.</p>
+            <h3 class="text-3xl font-black text-center text-white mb-2" data-es="Rutas Turísticas Populares" data-en="Popular Tourist Routes">Rutas Turísticas Populares</h3>
+            <p class="text-center text-gray-400 text-sm mb-12" data-es="Destinos reales que recorremos frecuentemente en nuestros servicios premium." data-en="Real destinations we frequently visit in our premium services.">Destinos reales que recorremos frecuentemente en nuestros servicios premium.</p>
             
             <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
                 <!-- Foto 1 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-1.jpeg" alt="Ruta de las Flores" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-1.jpg" alt="Ruta de las Flores" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 1</span>
@@ -311,7 +406,7 @@
                 </div>
                 <!-- Foto 2 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-2.jpeg" alt="Lago de Coatepeque" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-2.jpg" alt="Lago de Coatepeque" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 2</span>
@@ -320,7 +415,7 @@
                 </div>
                 <!-- Foto 3 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-3.jpeg" alt="El Boquerón" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-3.jpg" alt="El Boquerón" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 3</span>
@@ -329,7 +424,7 @@
                 </div>
                 <!-- Foto 4 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-4.jpeg" alt="Café Albania" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-4.jpg" alt="Café Albania" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 4</span>
@@ -338,34 +433,34 @@
                 </div>
                 <!-- Foto 5 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-5.jpeg" alt="Chalchuapa Villa Vettel" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-5.jpg" alt="Suchitoto Colonial" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 5</span>
-                        <h4 class="text-white font-bold text-xs" data-es="Villa Vettel (Chalchuapa)" data-en="Villa Vettel (Chalchuapa)">Villa Vettel (Chalchuapa)</h4>
+                        <h4 class="text-white font-bold text-xs" data-es="Suchitoto Colonial" data-en="Colonial Suchitoto">Suchitoto Colonial</h4>
                     </div>
                 </div>
                 <!-- Foto 6 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-6.jpeg" alt="Ruinas Arqueológicas" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-6.jpg" alt="Ruinas de Tazumal" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 6</span>
-                        <h4 class="text-white font-bold text-xs" data-es="Ruinas Arqueológicas" data-en="Archaeological Ruins">Ruinas Arqueológicas</h4>
+                        <h4 class="text-white font-bold text-xs" data-es="Tazumal (Chalchuapa)" data-en="Tazumal (Chalchuapa)">Tazumal (Chalchuapa)</h4>
                     </div>
                 </div>
                 <!-- Foto 7 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-7.jpeg" alt="Playas de La Libertad" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-7.jpg" alt="Playas de La Libertad" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 7</span>
-                        <h4 class="text-white font-bold text-xs" data-es="Playas de La Libertad" data-en="La Libertad Beaches">Playas de La Libertad</h4>
+                        <h4 class="text-white font-bold text-xs" data-es="Surf City / El Tunco" data-en="Surf City / El Tunco">Surf City / El Tunco</h4>
                     </div>
                 </div>
                 <!-- Foto 8 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-8.jpeg" alt="Cerro Verde" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-8.jpg" alt="Cerro Verde" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 8</span>
@@ -374,7 +469,7 @@
                 </div>
                 <!-- Foto 9 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-9.jpeg" alt="Volcán de Santa Ana" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-9.jpg" alt="Volcán de Santa Ana" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 9</span>
@@ -383,7 +478,7 @@
                 </div>
                 <!-- Foto 10 -->
                 <div class="group relative overflow-hidden rounded-2xl h-64 border border-gray-800 bg-[#0a192f] flex flex-col justify-end">
-                    <img src="./galeria-nombre-10.jpeg" alt="Salida de Aeropuerto" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
+                    <img src="./galeria-nombre-10.jpg" alt="Salida de Aeropuerto" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500 z-10" onerror="this.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-20"></div>
                     <div class="p-4 z-30">
                         <span class="text-[9px] text-neon font-bold uppercase tracking-widest block mb-1">Destino 10</span>
@@ -391,54 +486,34 @@
                     </div>
                 </div>
             </div>
-            
-            <p class="text-center mt-8 text-gray-500 text-xs italic" data-es="*Tus fotografías en la carpeta raíz se cargarán automáticamente al nombrarlas de galeria-nombre-1.jpg a galeria-nombre-10.jpg*" data-en="*Your photos in the root folder will load automatically when named from galeria-nombre-1.jpg to galeria-nombre-10.jpg*">
-                *Tus fotografías en la carpeta raíz se cargarán automáticamente al nombrarlas de galeria-nombre-1.jpg a galeria-nombre-10.jpg*
-            </p>
         </div>
     </section>
 
-    <!-- Sección de Flota Premium -->
+    <!-- Sección de Flota Premium (Priorizando Kia y Mazda) -->
     <section id="flota" class="py-20 relative z-20 container mx-auto px-4">
-        <h3 class="text-3xl font-black text-center text-white mb-2" data-es="Nuestra Flota Disponible" data-en="Our Fleet Available">Nuestra Flota Disponible</h3>
-        <p class="text-center text-gray-400 text-sm mb-12" data-es="Vehículos ejecutivos y de personal equipados para tu total confort." data-en="Executive and staff vehicles equipped for your total comfort.">Vehículos ejecutivos y de personal equipados para tu total confort.</p>
+        <h3 class="text-3xl font-black text-center text-white mb-2" data-es="Nuestras Unidades VIP" data-en="Our VIP Units">Nuestras Unidades VIP</h3>
+        <p class="text-center text-gray-400 text-sm mb-12" data-es="Vehículos de uso personal, sumamente limpios y equipados con aire acondicionado potente." data-en="Extremely clean personal vehicles fully equipped with powerful A/C.">Vehículos de uso personal, sumamente limpios y equipados con aire acondicionado potente.</p>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             
             <!-- Sedan Kia Forte -->
-            <div class="bg-navy p-6 rounded-3xl border border-emerald-500/10 hover:border-neon transition duration-300 flex flex-col justify-between">
-                <div>
-                    <div class="h-40 bg-gray-950 rounded-2xl mb-4 overflow-hidden border border-gray-800 relative group">
-                        <img src="./kiaforte.jpeg" alt="Kia Forte" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    </div>
-                    <h4 class="font-bold text-white text-lg">Kia Forte</h4>
-                    <p class="text-xs text-neon font-bold mb-2" data-es="Sedán Ejecutivo" data-en="Executive Sedan">Sedán Ejecutivo</p>
-                    <p class="text-xs text-gray-400" data-es="Excelente para traslados ejecutivos de 1 a 3 personas. Equipado con A/C potente y agua mineral de cortesía." data-en="Excellent for fast executive transfers of 1 to 3 people. Equipped with powerful A/C and complimentary mineral water.">Excelente para traslados ejecutivos de 1 a 3 personas. Equipado con A/C potente y agua mineral de cortesía.</p>
+            <div class="bg-navy p-6 rounded-3xl border border-emerald-500/10 hover:border-neon transition duration-300">
+                <div class="h-48 bg-gray-950 rounded-2xl mb-4 overflow-hidden border border-gray-800 relative group">
+                    <img src="./kiaforte.jpeg" alt="Kia Forte" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 </div>
+                <h4 class="font-bold text-white text-xl">Kia Forte</h4>
+                <p class="text-xs text-neon font-bold mb-2" data-es="Sedán Ejecutivo - 1 a 4 Pasajeros" data-en="Executive Sedan - 1 to 4 Passengers">Sedán Ejecutivo - 1 a 4 Pasajeros</p>
+                <p class="text-xs text-gray-400 leading-relaxed" data-es="Excelente para traslados ejecutivos rápidos y tours privados locales de hasta 3-4 personas con equipaje moderado. Un andar suave, climatizado, con agua mineral helada de cortesía." data-en="Excellent for fast executive transfers and local private tours of up to 3-4 passengers with moderate luggage. Smooth, fully climate-controlled ride with complimentary chilled mineral water.">Excelente para traslados ejecutivos rápidos y tours privados locales de hasta 3-4 personas con equipaje moderado. Un andar suave, climatizado, con agua mineral helada de cortesía.</p>
             </div>
             
             <!-- Mazda CX5 -->
-            <div class="bg-navy p-6 rounded-3xl border border-emerald-500/10 hover:border-neon transition duration-300 flex flex-col justify-between">
-                <div>
-                    <div class="h-40 bg-gray-950 rounded-2xl mb-4 overflow-hidden border border-gray-800 relative group">
-                        <img src="./mazdacx5.jpeg" alt="Mazda CX-5" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    </div>
-                    <h4 class="font-bold text-white text-lg">Mazda CX-5</h4>
-                    <p class="text-xs text-neon font-bold mb-2" data-es="SUV Confortable" data-en="Comfortable SUV">SUV Confortable</p>
-                    <p class="text-xs text-gray-400" data-es="Camioneta moderna, sumamente espaciosa, ideal para turismo nacional con excelente confort de equipaje y presencia." data-en="Modern SUV, extremely spacious, ideal for national tourism with excellent luggage comfort and premium prestige.">Camioneta moderna, sumamente espaciosa, ideal para turismo nacional con excelente confort de equipaje y presencia.</p>
+            <div class="bg-navy p-6 rounded-3xl border border-emerald-500/10 hover:border-neon transition duration-300">
+                <div class="h-48 bg-gray-950 rounded-2xl mb-4 overflow-hidden border border-gray-800 relative group">
+                    <img src="./mazda.jpeg" alt="Mazda CX-5" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 </div>
-            </div>
-            
-            <!-- Van Hiace -->
-            <div class="bg-navy p-6 rounded-3xl border border-emerald-500/10 hover:border-neon transition duration-300 flex flex-col justify-between">
-                <div>
-                    <div class="h-40 bg-gray-950 rounded-2xl mb-4 overflow-hidden border border-gray-800 relative group">
-                        <img src="./hiace.jpeg" alt="Microbús Hiace / H1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    </div>
-                    <h4 class="font-bold text-white text-lg">Hiace / H1</h4>
-                    <p class="text-xs text-neon font-bold mb-2" data-es="Microbús Grupal (Grupo 3)" data-en="Group Van (Group 3)">Microbús Grupal (Grupo 3)</p>
-                    <p class="text-xs text-gray-400" data-es="Toyota Hiace e Hyundai H1 de Grupo 3. Perfecto para traslados de hasta 15 pasajeros. Consulta disponibilidad directamente." data-en="Toyota Hiace and Hyundai H1 from Grupo 3. Perfect for group transfers of up to 15 passengers. Inquire directly for availability.">Toyota Hiace e Hyundai H1 de Grupo 3. Perfecto para traslados de hasta 15 pasajeros. Consulta disponibilidad directamente.</p>
-                </div>
+                <h4 class="font-bold text-white text-xl">Mazda CX-5</h4>
+                <p class="text-xs text-neon font-bold mb-2" data-es="SUV Confort Premium - Máxima Comodidad" data-en="Premium Comfort SUV - Maximum Luxury">SUV Confort Premium - Máxima Comodidad</p>
+                <p class="text-xs text-gray-400 leading-relaxed" data-es="La opción perfecta para tus tours privados de varios días. Espacio de cajuela óptimo para equipaje grande de 4 pasajeros. Confort superior y presencia ejecutiva ideal para turismo nacional o de negocios." data-en="The perfect option for your multi-day private tours. Optimal trunk space for 4 passengers with large luggage. Superior comfort and perfect executive presence for national tourism or business trips.">La opción perfecta para tus tours privados de varios días. Espacio de cajuela óptimo para equipaje grande de 4 pasajeros. Confort superior y presencia ejecutiva ideal para turismo nacional o de negocios.</p>
             </div>
         </div>
     </section>
@@ -448,128 +523,83 @@
         <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-gray-800 pb-12 mb-8">
             <div>
                 <h4 class="text-neon font-black text-xl mb-6">ML TRAVELING</h4>
-                <p class="text-gray-400 text-sm leading-relaxed" data-es="Empresa autorizada de transporte ejecutivo y de personal en El Salvador. Conducimos con puntualidad, elegancia y seguridad para el cliente más exigente." data-en="Authorized executive and personal transport company in El Salvador. We drive with punctuality, elegance, and safety for the most demanding clients.">
-                    Empresa autorizada de transporte ejecutivo y de personal en El Salvador. Conducimos con puntualidad, elegancia y seguridad para el cliente más exigente.
+                <p class="text-gray-400 text-sm leading-relaxed" data-es="Servicio de turismo receptivo y transporte ejecutivo de personal en El Salvador. Conducimos con puntualidad, elegancia y seguridad para el cliente más exigente del mundo." data-en="Inbound tourism and executive personal transport services in El Salvador. We drive with punctuality, elegance, and safety for the most demanding global travelers.">
+                    Servicio de turismo receptivo y transporte ejecutivo de personal en El Salvador. Conducimos con puntualidad, elegancia y seguridad para el cliente más exigente del mundo.
                 </p>
             </div>
             <div>
                 <h4 class="font-bold text-lg mb-6 text-white" data-es="Contactos Directos" data-en="Direct Contacts">Contactos Directos</h4>
                 <ul class="space-y-4 text-sm text-gray-400">
-                    <li>📍 El Salvador - Aeropuerto & Departamentos</li>
+                    <li>📍 San Salvador, El Salvador - Cobertura Nacional</li>
                     <li>📞 WhatsApp: <a href="https://wa.me/50374694306" class="text-mint hover:underline">7469-4306</a></li>
                     <li>📧 Correo: <span class="text-white">mltraveling2025@gmail.com</span></li>
-                    <li>🎵 TikTok: <a href="https://www.tiktok.com/@ml.traveling" target="_blank" class="hover:text-neon">ml.traveling</a></li>
+                    <li>🎵 TikTok: <a href="https://www.tiktok.com/@ml.traveling" target="_blank" class="hover:text-neon">@ml.traveling</a></li>
                 </ul>
             </div>
             <div>
-                <h4 class="font-bold text-lg mb-6 text-white" data-es="Seguridad de Reserva" data-en="Booking Security">Seguridad de Reserva</h4>
+                <h4 class="font-bold text-lg mb-6 text-white" data-es="Garantía de Viaje" data-en="Trip Guarantee">Garantía de Viaje</h4>
                 <div class="bg-gray-950 p-4 rounded-xl border-l-4 border-neon">
-                    <p class="text-xs text-gray-300 italic" data-es="&quot;Coordinamos tu viaje con un anticipo seguro para garantizar tu total puntualidad.&quot;" data-en="&quot;We coordinate your trip with a secure deposit to guarantee complete punctuality.&quot;">"Coordinamos tu viaje con un anticipo seguro para garantizar tu total puntualidad."</p>
+                    <p class="text-xs text-gray-300 italic" data-es="&quot;Tus vacaciones en El Salvador sin contratiempos. Coordinamos cada tour con conductores certificados de entera confianza.&quot;" data-en="&quot;Your vacation in El Salvador without setbacks. We coordinate each tour with fully certified, trusted drivers.&quot;">"Tus vacaciones en El Salvador sin contratiempos. Coordinamos cada tour con conductores certificados de entera confianza."</p>
                 </div>
             </div>
         </div>
         <p class="text-center text-xs text-gray-500">&copy; 2026 ML Traveling El Salvador. Todos los derechos reservados.</p>
     </footer>
 
-    <!-- Lógica JavaScript Dinámica (Calculador de Tarifas) -->
+    <!-- Lógica JavaScript Dinámica (Cálculo Inteligente de Tours y los 14 Departamentos) -->
     <script>
-        // =========================================================================
-        // MARVIN: Esta es tu base de datos de los 14 departamentos de El Salvador.
-        // Aquí puedes editar los precios fácilmente basándote en los kilómetros reales.
-        // =========================================================================
+        // Declaramos las tarifas bases desde el Aeropuerto (Sedán)
+        // He integrado los 14 departamentos con destinos turísticos/ejecutivos representativos
         const tarifas = {
-            "San Salvador": {
-                "San Salvador Centro": { sedan: 40, microbus: 17.5 },
-                "Escalón": { sedan: 40, microbus: 17.5 },
-                "Hilton San Salvador": { sedan: 40, microbus: 17.5 },
-                "Soyapango / Ilopango": { sedan: 35, microbus: 15 }
-            },
-            "La Libertad": {
-                "Santa Tecla": { sedan: 45, microbus: 18 },
-                "El Tunco / Surf City": { sedan: 50, microbus: 20 },
-                "Nuevo Cuscatlán / Antiguo Cuscatlán": { sedan: 45, microbus: 18 }
-            },
-            "Santa Ana": {
-                "Santa Ana Centro": { sedan: 85, microbus: 22 },
-                "Chalchuapa (Villa Vettel)": { sedan: 95, microbus: 24 },
-                "Lago de Coatepeque": { sedan: 80, microbus: 22 }
-            },
-            "Sonsonate": {
-                "Sonsonate Centro": { sedan: 95, microbus: 24 },
-                "Juayúa / Ruta de las Flores": { sedan: 110, microbus: 25 }
-            },
-            "Ahuachapán": {
-                "Ataco / Apaneca": { sedan: 100, microbus: 25 },
-                "Ahuachapán Centro": { sedan: 110, microbus: 25 }
-            },
-            "La Paz": {
-                "Costa del Sol": { sedan: 35, microbus: 15 },
-                "Zacatecoluca": { sedan: 30, microbus: 15 },
-                "Olocuilta": { sedan: 20, microbus: 10 }
-            },
-            "Cuscatlán": {
-                "Cojutepeque": { sedan: 45, microbus: 18 },
-                "Suchitoto": { sedan: 65, microbus: 22 }
-            },
-            "San Vicente": {
-                "San Vicente Centro": { sedan: 50, microbus: 20 },
-                "Apastepeque": { sedan: 55, microbus: 20 }
-            },
-            "Cabañas": {
-                "Ilobasco": { sedan: 65, microbus: 22 },
-                "Sensuntepeque": { sedan: 85, microbus: 25 }
-            },
-            "Chalatenango": {
-                "Chalatenango Centro": { sedan: 90, microbus: 25 },
-                "La Palma / San Ignacio": { sedan: 120, microbus: 30 }
-            },
-            "Usulután": {
-                "Usulután Centro": { sedan: 85, microbus: 25 },
-                "Jiquilisco": { sedan: 75, microbus: 22 },
-                "Alegría / Berlín": { sedan: 95, microbus: 25 }
-            },
-            "San Miguel": {
-                "San Miguel Centro": { sedan: 100, microbus: 30 },
-                "El Cuco": { sedan: 120, microbus: 32 }
-            },
-            "Morazán": {
-                "San Francisco Gotera": { sedan: 130, microbus: 32 },
-                "Perquín": { sedan: 150, microbus: 35 }
-            },
-            "La Unión": {
-                "La Unión Centro": { sedan: 140, microbus: 35 },
-                "Conchagua": { sedan: 150, microbus: 35 },
-                "El Amatillo (Frontera)": { sedan: 160, microbus: 38 }
-            }
+            // Zona Central y Metropolitana
+            "San Salvador": { "San Salvador": 40, "Escalón / San Benito": 40 },
+            "La Libertad": { "Santa Tecla": 45, "Surf City (El Tunco)": 50, "Zonte": 55 },
+            "La Paz": { "Zacatecoluca": 40, "Costa del Sol": 45 },
+            "Cuscatlán": { "Cojutepeque": 55, "Suchitoto": 65 },
+            "Chalatenango": { "Chalatenango (Centro)": 85, "San Ignacio / El Pital": 110 },
+            "Cabañas": { "Sensuntepeque": 85, "Ilobasco": 75 },
+            "San Vicente": { "San Vicente (Centro)": 60, "Apastepeque": 65 },
+
+            // Zona Occidental
+            "Santa Ana": { "Santa Ana (Centro)": 85, "Lago de Coatepeque": 85, "Metapán": 115 },
+            "Sonsonate": { "Sonsonate (Centro)": 95, "Juayúa": 100, "Salcoatitán": 100 },
+            "Ahuachapán": { "Ataco": 100, "Ahuachapán (Centro)": 105 },
+
+            // Zona Oriental
+            "Usulután": { "Usulután (Centro)": 85, "Bahía de Jiquilisco": 95 },
+            "San Miguel": { "San Miguel (Centro)": 100, "El Cuco": 115 },
+            "Morazán": { "San Francisco Gotera": 120, "Perquín (Ruta de Paz)": 140 },
+            "La Unión": { "La Unión (Centro)": 140, "Golfo de Fonseca / Conchagua": 150 }
         };
 
-        // Relación directa entre departamentos seleccionados y sus distritos
+        // Relación entre departamentos y destinos
         const departamentos = {
-            "San Salvador": ["San Salvador Centro", "Escalón", "Hilton San Salvador", "Soyapango / Ilopango"],
-            "La Libertad": ["Santa Tecla", "El Tunco / Surf City", "Nuevo Cuscatlán / Antiguo Cuscatlán"],
-            "Santa Ana": ["Santa Ana Centro", "Chalchuapa (Villa Vettel)", "Lago de Coatepeque"],
-            "Sonsonate": ["Sonsonate Centro", "Juayúa / Ruta de las Flores"],
-            "Ahuachapán": ["Ataco / Apaneca", "Ahuachapán Centro"],
-            "La Paz": ["Costa del Sol", "Zacatecoluca", "Olocuilta"],
+            "San Salvador": ["San Salvador", "Escalón / San Benito"],
+            "La Libertad": ["Santa Tecla", "Surf City (El Tunco)", "Zonte"],
+            "La Paz": ["Zacatecoluca", "Costa del Sol"],
             "Cuscatlán": ["Cojutepeque", "Suchitoto"],
-            "San Vicente": ["San Vicente Centro", "Apastepeque"],
-            "Cabañas": ["Ilobasco", "Sensuntepeque"],
-            "Chalatenango": ["Chalatenango Centro", "La Palma / San Ignacio"],
-            "Usulután": ["Usulután Centro", "Jiquilisco", "Alegría / Berlín"],
-            "San Miguel": ["San Miguel Centro", "El Cuco"],
-            "Morazán": ["San Francisco Gotera", "Perquín"],
-            "La Unión": ["La Unión Centro", "Conchagua", "El Amatillo (Frontera)"]
+            "Chalatenango": ["Chalatenango (Centro)", "San Ignacio / El Pital"],
+            "Cabañas": ["Sensuntepeque", "Ilobasco"],
+            "San Vicente": ["San Vicente (Centro)", "Apastepeque"],
+            "Santa Ana": ["Santa Ana (Centro)", "Lago de Coatepeque", "Metapán"],
+            "Sonsonate": ["Sonsonate (Centro)", "Juayúa", "Salcoatitán"],
+            "Ahuachapán": ["Ataco", "Ahuachapán (Centro)"],
+            "Usulután": ["Usulután (Centro)", "Bahía de Jiquilisco"],
+            "San Miguel": ["San Miguel (Centro)", "El Cuco"],
+            "Morazán": ["San Francisco Gotera", "Perquín (Ruta de Paz)"],
+            "La Unión": ["La Unión (Centro)", "Golfo de Fonseca / Conchagua"]
         };
 
-        // ==========================================
-        // VARIABLES CONFIGURABLES DE CAPACIDAD
-        // ==========================================
-        const TARIFA_POR_PERSONA_LOCAL = 15; // Recorridos locales
-        const TARIFA_POR_PERSONA_LARGO = 30; // Recorridos largos
-        
+        // Tarifas base de los Tours Privados para 1-2 personas
+        const tarifasTours = {
+            "Tour Privado 1 Día": { sedan: 120, suv: 150 },
+            "Tour Privado 3 Días": { sedan: 350, suv: 450 },
+            "Tour Privado 5 Días": { sedan: 550, suv: 700 }
+        };
+
         let idiomaActual = 'es';
 
-        // Diseñador de notificaciones Toast premium sin usar alert()
+        // Diseñador de notificaciones Toast sin usar alert()
         function mostrarToast(mensaje, tipo = 'info') {
             const container = document.getElementById('toast-container');
             const toast = document.createElement('div');
@@ -587,13 +617,55 @@
             setTimeout(() => {
                 toast.classList.add('opacity-0', 'translate-y-2');
                 setTimeout(() => toast.remove(), 300);
-            }, 5000);
+            }, 6000);
         }
 
-        // Sobrescribimos el alert del sistema para usar nuestro elegante Toast
+        // Reemplazar alerts del navegador
         window.alert = function(msg) {
             mostrarToast(msg, 'error');
         };
+
+        // Alternar el tipo de servicio en el calculador
+        function cambiarTipoServicio() {
+            const servicio = document.getElementById("tipo-servicio").value;
+            const seccionTraslado = document.getElementById("seccion-traslado");
+            const seccionTour = document.getElementById("seccion-tour");
+            const seccionVuelo = document.getElementById("seccion-vuelo");
+            const labelTarifa = document.getElementById("label-tarifa");
+            const divGrandes = document.getElementById("div-maletas-grandes");
+
+            if (servicio === "tour") {
+                seccionTraslado.classList.add("hidden");
+                seccionTour.classList.remove("hidden");
+                seccionVuelo.classList.add("hidden");
+                
+                // Desactivamos maletas grandes para tours (solo maletas de mano)
+                document.getElementById("maletas-grandes").value = 0;
+                divGrandes.classList.add("hidden");
+                
+                labelTarifa.innerText = idiomaActual === 'es' ? "Tarifa Estimada del Tour" : "Estimated Tour Fare";
+            } else {
+                seccionTraslado.classList.remove("hidden");
+                seccionTour.classList.add("hidden");
+                seccionVuelo.classList.remove("hidden");
+                
+                divGrandes.classList.remove("hidden");
+                
+                labelTarifa.innerText = idiomaActual === 'es' ? "Tarifa Estimada del Traslado" : "Estimated Transfer Fare";
+            }
+            calcularTarifa();
+        }
+
+        // Selección rápida desde las tarjetas de los tours
+        function seleccionarTourFormulario(nombreTour) {
+            document.getElementById("tipo-servicio").value = "tour";
+            cambiarTipoServicio();
+            document.getElementById("tour-seleccionado").value = nombreTour;
+            calcularTarifa();
+            
+            // Hacer scroll suave al cotizador
+            document.getElementById("cotizador").scrollIntoView({ behavior: 'smooth' });
+        }
 
         // Selector de Idiomas
         function cambiarIdioma(lang) {
@@ -637,89 +709,206 @@
             calcularTarifa();
         }
 
-        // =========================================================================
-        // FUNCIÓN PRINCIPAL DE CÁLCULO DE TARIFAS - LOGÍSITICA ADAPTATIVA MARVIN
-        // =========================================================================
+        // ==========================================
+        // FUNCIÓN PRINCIPAL DE CÁLCULO DE TARIFAS
+        // ==========================================
         function calcularTarifa() {
             const resultadoPrecio = document.getElementById("resultadoPrecio");
             const resultadoDeposito = document.getElementById("resultadoDeposito");
-            const botonWhatsapp = document.getElementById("botonWhatsapp");
             const alertaMicrobus = document.getElementById("alerta-microbus");
+            const mapIframe = document.getElementById("google-map");
 
-            const origen = document.querySelector("#origen").value;
-            const destino = document.querySelector("#destino").value;
-            let vehiculo = document.querySelector("#vehiculo").value;
-            const equipaje = document.querySelector("#equipaje").value;
-
-            const fecha = document.querySelector('input[type="date"]').value;
-            const hora = document.querySelector('input[type="time"]').value;
-
-            let pasajeros = parseInt(document.querySelector("#pasajeros").value) || 1;
+            const servicio = document.getElementById("tipo-servicio").value;
+            const depto = document.getElementById("departamento").value;
+            const destino = document.getElementById("destino").value;
+            const tour = document.getElementById("tour-seleccionado").value;
+            let vehiculo = document.getElementById("vehiculo").value;
+            
+            // Leemos los dos inputs numéricos de maletas
+            let maletasGrandes = parseInt(document.getElementById("maletas-grandes").value) || 0;
+            let maletasPequenas = parseInt(document.getElementById("maletas-pequenas").value) || 0;
+            let pasajeros = parseInt(document.getElementById("pasajeros").value) || 1;
 
             let precio = 0;
             let recomendacion = "";
-
             alertaMicrobus.classList.add("hidden");
 
-            // Validaciones iniciales
-            if (destino === "Destino" || vehiculo === "Vehículo") {
+            // Asegurar que no pongan valores negativos
+            if (maletasGrandes < 0) { maletasGrandes = 0; document.getElementById("maletas-grandes").value = 0; }
+            if (maletasPequenas < 0) { maletasPequenas = 0; document.getElementById("maletas-pequenas").value = 0; }
+            if (pasajeros < 1) { pasajeros = 1; document.getElementById("pasajeros").value = 1; }
+
+            // ==========================================
+            // REGLA DE CAPACIDAD GRUPAL (MICROBÚS ON-DEMAND)
+            // ==========================================
+            if (pasajeros >= 5 || vehiculo === "Microbus") {
+                resultadoPrecio.innerHTML = idiomaActual === 'es' ? "Bajo Consulta" : "On Request";
+                resultadoDeposito.innerHTML = idiomaActual === 'es' 
+                    ? "Para grupos de 5 personas en adelante, brindamos un servicio personalizado con unidades Hiace o Hyundai H1 de Grupo 3. Haz clic en reservar para verificar disponibilidad."
+                    : "For groups of 5 or more, we provide custom services with Hiace or Hyundai H1 vans. Click book to check real-time availability.";
+                alertaMicrobus.classList.remove("hidden");
+                return;
+            }
+
+            // ==========================================
+            // RESTRICCIÓN TOURS: SOLO PERMITIR MALETAS PEQUEÑAS DE MANO
+            // ==========================================
+            if (servicio === "tour" && maletasGrandes > 0) {
+                maletasGrandes = 0;
+                document.getElementById("maletas-grandes").value = 0;
+                mostrarToast(
+                    idiomaActual === 'es'
+                    ? "Por comodidad en el trayecto, los tours solo permiten equipaje de mano."
+                    : "For itinerary comfort, tour packages only permit carry-on hand luggage."
+                );
+            }
+
+            // ==========================================
+            // CONTROL DE CAPACIDAD DEL KIA FORTE (REGLA MARVIN MEJORADA)
+            // Evaluamos la comodidad del Forte contra maletas físicas reales
+            // ==========================================
+            let upgradeASuv = false;
+            let advertenciaEquipaje = "";
+
+            if (vehiculo === "Kia Forte") {
+                // 1 Pasajero: hasta 4 maletas grandes, pero si tiene 4 grandes, no cabe ninguna pequeña
+                if (pasajeros === 1) {
+                    // No dejar que suba el contador a más de 4 maletas en total
+                    if (maletasGrandes + maletasPequenas > 4) {
+                        // Forzar a un máximo de 4
+                        if (maletasGrandes > 4) {
+                            maletasGrandes = 4;
+                            document.getElementById("maletas-grandes").value = 4;
+                        }
+                        maletasPequenas = 4 - maletasGrandes;
+                        document.getElementById("maletas-pequenas").value = maletasPequenas;
+                        
+                        mostrarToast(
+                            idiomaActual === 'es'
+                            ? "Kia Forte: Límite máximo de 4 maletas en total para 1 pasajero."
+                            : "Kia Forte: Maximum limit of 4 bags in total for 1 passenger."
+                        );
+                    }
+                }
+                // 2 Pasajeros: Máximo 2 grandes y 2 pequeñas en total, o 4 pequeñas. Si pasa, sube a la camioneta
+                else if (pasajeros === 2) {
+                    if (maletasGrandes > 2 || (maletasGrandes + maletasPequenas > 4)) {
+                        upgradeASuv = true;
+                        advertenciaEquipaje = idiomaActual === 'es'
+                            ? "Para 2 pasajeros con más de 2 maletas grandes o 2 pequeñas (Máx. 4 total), se requiere SUV Mazda CX-5 por espacio de equipaje."
+                            : "For 2 passengers with more than 2 large or 2 small bags (Max 4 total), SUV Mazda CX-5 is required.";
+                    }
+                }
+                // 3 Pasajeros: Máximo 3 grandes y 0 pequeñas, o 3 pequeñas. Si no, pasan a la SUV
+                else if (pasajeros === 3) {
+                    const casoSoloGrandes = (maletasGrandes <= 3 && maletasPequenas === 0);
+                    const casoSoloPequenas = (maletasPequenas <= 3 && maletasGrandes === 0);
+                    
+                    if (!casoSoloGrandes && !casoSoloPequenas) {
+                        upgradeASuv = true;
+                        advertenciaEquipaje = idiomaActual === 'es'
+                            ? "Para 3 pasajeros con equipaje mixto o más de 3 maletas, se requiere SUV Mazda CX-5 por seguridad."
+                            : "For 3 passengers with mixed luggage or more than 3 bags, SUV Mazda CX-5 is required.";
+                    }
+                }
+                // 4 Pasajeros: Solo permitidos en Forte con 4 pequeñas, o 1 grande y 3 pequeñas. (Max 4 maletas total)
+                else if (pasajeros === 4) {
+                    if (maletasGrandes > 1 || (maletasGrandes + maletasPequenas > 4)) {
+                        upgradeASuv = true;
+                        advertenciaEquipaje = idiomaActual === 'es'
+                            ? "Para 4 pasajeros con más de 1 maleta grande o más de 4 maletas en total, se requiere la SUV Mazda CX-5."
+                            : "For 4 passengers with more than 1 large bag or more than 4 bags in total, SUV Mazda CX-5 is required.";
+                    }
+                }
+            }
+
+            // Aplicamos el upgrade automático de Marvin si se disparó alguna alarma de equipaje
+            if (upgradeASuv) {
+                vehiculo = "Mazda CX5";
+                document.getElementById("vehiculo").value = "Mazda CX5";
+                mostrarToast(advertenciaEquipaje);
+            }
+
+            // Restricción de seguridad física para la camioneta Mazda CX-5:
+            // "4 pasajeros y 4 maletas grandes si caben en la camioneta pero sin ninguna pequeña porque ya no cabería"
+            if (vehiculo === "Mazda CX5") {
+                // Límite estricto de maletas grandes en SUV
+                if (maletasGrandes > 4) {
+                    maletasGrandes = 4;
+                    document.getElementById("maletas-grandes").value = 4;
+                    mostrarToast(
+                        idiomaActual === 'es'
+                        ? "La SUV Mazda CX-5 tiene un límite físico estricto de 4 maletas grandes."
+                        : "The SUV Mazda CX-5 has a strict physical limit of 4 large bags."
+                    );
+                }
+
+                if (pasajeros === 4 && maletasGrandes === 4 && maletasPequenas > 0) {
+                    maletasPequenas = 0;
+                    document.getElementById("maletas-pequenas").value = 0;
+                    mostrarToast(
+                        idiomaActual === 'es'
+                        ? "⚠️ Para 4 pasajeros con 4 maletas grandes, la SUV ya no dispone de espacio para maletas de mano adicionales."
+                        : "⚠️ For 4 passengers with 4 large bags, the SUV has no space for extra carry-on bags.",
+                        "error"
+                    );
+                }
+            }
+
+            // ==========================================
+            // CASO: TOURS PRIVADOS (1, 3 o 5 Días)
+            // ==========================================
+            if (servicio === "tour") {
+                mapIframe.src = "https://maps.google.com/maps?q=El%20Salvador%20Turismo&output=embed";
+
+                const baseTour = tarifasTours[tour];
+                let precioBase = (vehiculo === "Mazda CX5") ? baseTour.suv : baseTour.sedan;
+
+                // Reglas de pasajeros extra en tours
+                if (pasajeros === 3) {
+                    precioBase += 15;
+                } else if (pasajeros === 4) {
+                    precioBase += 30;
+                }
+
+                precio = Math.round(precioBase); // Removido el recargo de equipaje de $1.00
+                const deposito = Math.round(precio * 0.50);
+
+                resultadoPrecio.innerHTML = `$${precio}.00`;
+                resultadoDeposito.innerHTML = idiomaActual === 'es'
+                    ? `Tu Tour Privado incluye chofer exclusivo y combustible. Coordinamos tu agenda de viaje mediante un anticipo reembolsable del 50% (Depósito estimado: <strong>$${deposito}.00</strong>).`
+                    : `Your Private Tour includes exclusive driver and fuel. We coordinate your travel agenda with a 50% refundable deposit (Estimated deposit: <strong>$${deposito}.00</strong>).`;
+                return;
+            }
+
+            // ==========================================
+            // CASO: TRASLADOS AL AEROPUERTO / DEPARTAMENTOS
+            // ==========================================
+            if (!depto || destino === "Destino") {
                 resultadoPrecio.innerHTML = "$0.00";
                 return;
             }
 
-            // Actualización del mapa interactivo con ruta real
-            const mapIframe = document.getElementById("google-map");
-            if (destino) {
-                mapIframe.src = `https://maps.google.com/maps?q=Aeropuerto%20Internacional%20Monse%C3%B1or%20Romero%20to%20${encodeURIComponent(destino)}%20El%20Salvador&output=embed`;
-            }
+            mapIframe.src = `https://maps.google.com/maps?q=Aeropuerto%20Internacional%20Monse%C3%B1or%20Romero%20to%20${encodeURIComponent(destino)}%20El%20Salvador&output=embed`;
 
-            // Hallamos la tarifa del departamento y distrito
-            const deptoSelected = document.getElementById('departamento').value;
-            const tarifaBaseEstandarSedan = tarifas[deptoSelected][destino].sedan;
+            const precioBaseEstandarSedan = tarifas[depto][destino];
 
-            // Determinamos si el viaje es largo o local basándonos en el precio del sedán
-            const esViajeLargo = tarifaBaseEstandarSedan > 50; 
-            const tarifaPorPersonaAplicable = esViajeLargo ? TARIFA_POR_PERSONA_LARGO : TARIFA_POR_PERSONA_LOCAL;
+            // Determinamos si es viaje largo (más de $40 base en sedán) para aplicar reglas de protección de costos
+            const esViajeLargo = precioBaseEstandarSedan > 40;
+            const tarifaPorPersonaAplicable = esViajeLargo ? 30 : 15;
 
-            // ==========================================
-            // LOGÍSITICA ESPECIAL PARA EL MICROBÚS (NUEVA REGLA DIRECTA A WHATSAPP)
-            // ==========================================
-            if (vehiculo === "Microbus" || pasajeros >= 5) {
-                // Forzamos visualmente que seleccione Microbús si son 5 o más pasajeros
-                if (pasajeros >= 5 && vehiculo !== "Microbus") {
-                    vehiculo = "Microbus";
-                    document.querySelector("#vehiculo").value = "Microbus";
-                }
-
-                alertaMicrobus.classList.remove("hidden");
-                resultadoPrecio.innerHTML = idiomaActual === 'es' ? "Bajo Consulta" : "On Request";
-                
-                resultadoDeposito.innerHTML = idiomaActual === 'es' 
-                    ? `Los traslados en microbús (Hiace / H1) se coordinan de forma totalmente personalizada. Haz clic en el botón de abajo para <strong>consultar disponibilidad y tarifa especial</strong> de forma directa por WhatsApp.`
-                    : `Microbus transfers (Hiace / H1) are coordinated in a fully personalized way. Click the button below to <strong>check availability and special rates</strong> directly via WhatsApp.`;
-                
-                botonWhatsapp.innerText = idiomaActual === 'es' ? "Preguntar Disponibilidad por WhatsApp" : "Check Availability via WhatsApp";
-                return;
-            }
-
-            // Reseteamos el texto del botón por si venía de Microbús
-            botonWhatsapp.innerText = idiomaActual === 'es' ? "Reservar y Solicitar Link de Pago" : "Book and Request Payment Link";
-
-            // ==========================================
-            // CONDICIONALES DE CAPACIDAD Y EQUIPAJE PARA SEDÁN (KIA FORTE)
-            // ==========================================
-            const aplicaTarifaEspecialPorPersona = 
-                (pasajeros === 3 && equipaje === "L") || 
-                (pasajeros === 4 && equipaje === "S");
+            // Evaluamos si el equipaje o la cantidad de pasajeros requiere cobro especial por persona
+            const aplicaTarifaPersona = 
+                (pasajeros === 3 && maletasGrandes > 0) || 
+                (pasajeros === 4 && maletasGrandes === 0);
 
             if (vehiculo === "Kia Forte") {
-                // Si califica para tarifa especial por persona
-                if (aplicaTarifaEspecialPorPersona) {
+                if (aplicaTarifaPersona) {
                     let precioPorPersonaCalculado = tarifaPorPersonaAplicable * pasajeros;
 
                     // Regla de protección de tarifa mínima: si la suma es menor que la base, se cobra la base
-                    if (precioPorPersonaCalculado < tarifaBaseEstandarSedan) {
-                        precio = tarifaBaseEstandarSedan;
+                    if (precioPorPersonaCalculado < precioBaseEstandarSedan) {
+                        precio = precioBaseEstandarSedan;
                     } else {
                         precio = precioPorPersonaCalculado;
                         recomendacion = idiomaActual === 'es' 
@@ -727,89 +916,101 @@
                             : `Adjusted by capacity/luggage ($${tarifaPorPersonaAplicable}.00 each)`;
                     }
                 } else {
-                    // Tarifa normal
-                    precio = tarifaBaseEstandarSedan;
+                    let precioCalculado = precioBaseEstandarSedan;
+                    
+                    // Si son 3 pasajeros o más sin calificar a tarifa especial de personas
+                    if (pasajeros === 3) {
+                        precioCalculado = precioBaseEstandarSedan + 10;
+                    } else if (pasajeros === 4) {
+                        precioCalculado = precioBaseEstandarSedan + 20;
+                    }
+                    precio = precioCalculado;
                 }
 
-                // Si son 4 pasajeros con equipaje mediano o grande en Sedán, recomendamos SUV de una vez por comodidad
-                if (pasajeros === 4 && (equipaje === "M" || equipaje === "L")) {
-                    // Forzamos el cambio a Mazda CX5 automáticamente para garantizar espacio y comodidad
-                    vehiculo = "Mazda CX5";
-                    document.querySelector("#vehiculo").value = "Mazda CX5";
-                    recomendacion = idiomaActual === 'es'
-                        ? "Se cambió automáticamente a SUV por comodidad y espacio de equipaje."
-                        : "Automatically switched to SUV for baggage space and comfort.";
-                    mostrarToast(recomendacion);
+                // Protección de costos general (Removido el recargoEquipaje)
+                if (precio < precioBaseEstandarSedan) {
+                    precio = precioBaseEstandarSedan;
                 }
-            }
+            } 
+            else if (vehiculo === "Mazda CX5") {
+                const tarifaBaseCamioneta = precioBaseEstandarSedan * 1.30; // +30% de confort premium
 
-            // ==========================================
-            // LOGÍSTICA PARA LA CAMIONETA SUV (MAZDA CX-5)
-            // ==========================================
-            if (vehiculo === "Mazda CX5") {
-                // Base Confort de la SUV es tarifa base del Sedán + 30%
-                const precioBaseSUV = tarifaBaseEstandarSedan * 1.30;
-                precio = precioBaseSUV;
-
-                // Sumamos los Surcharges Progresivos automáticos
+                // Surcharges Progresivos para la Camioneta (Removido el recargoEquipaje)
                 if (pasajeros === 3) {
-                    precio = precioBaseSUV + 15; // +$15 para 3 personas
+                    precio = tarifaBaseCamioneta + 15;
                 } else if (pasajeros === 4) {
-                    precio = precioBaseSUV + 30; // +$30 para 4 personas (+$15 de la 3era y +$15 de la 4ta)
+                    precio = tarifaBaseCamioneta + 30;
+                } else {
+                    precio = tarifaBaseCamioneta;
                 }
             }
 
             precio = Math.round(precio);
             const deposito = Math.round(precio * 0.50);
 
-            // Renderizado final de los precios calculados automáticamente
-            resultadoPrecio.innerHTML = `
-                $${precio}.00
-                ${recomendacion ? `<br><span class="text-xs text-neon font-semibold">${recomendacion}</span>` : ''}
-            `;
-
+            resultadoPrecio.innerHTML = `$${precio}.00`;
+            if (recomendacion) {
+                resultadoPrecio.innerHTML += `<br><span class="text-xs text-neon font-semibold">${recomendacion}</span>`;
+            }
             resultadoDeposito.innerHTML = idiomaActual === 'es' 
-                ? `Para brindarte el servicio de alta calidad, conductor uniformado y vehículo impecable que mereces, coordinamos tu traslado mediante un anticipo del 50% (Depósito estimado: <strong>$${deposito}.00</strong>). En caso de imprevistos, te ayudamos gustosamente a reprogramar tu viaje con previo aviso.`
-                : `To guarantee your high-quality service, uniformed driver, and spotless vehicle, we coordinate your transfer with a 50% advance deposit (Estimated deposit: <strong>$${deposito}.00</strong>). In case of unexpected changes, we are happy to assist you in rescheduling your trip.`;
+                ? `Para agendar tu traslado ejecutivo seguro, coordinamos tu viaje con un anticipo reembolsable del 50% (Depósito estimado: <strong>$${deposito}.00</strong>).`
+                : `To book your secure executive transfer, we coordinate your trip with a 50% refundable deposit (Estimated deposit: <strong>$${deposito}.00</strong>).`;
         }
 
         // Recopilación y envío de la reservación a WhatsApp
         function enviarReserva() {
-            const origen = document.querySelector("#origen").value;
-            const depto = document.getElementById('departamento').value;
-            const destino = document.querySelector("#destino").value;
-            const vehiculo = document.querySelector("#vehiculo").value;
-            const equipaje = document.querySelector("#equipaje").value;
-            const fecha = document.querySelector('input[type="date"]').value;
-            const hora = document.querySelector('input[type="time"]').value;
-            const pasajeros = document.querySelector("#pasajeros").value;
-            const vuelo = document.getElementById('vuelo').value;
-            const displayPrice = document.getElementById('resultadoPrecio').innerText.replace(/\n/g, ' ');
+            const servicio = document.getElementById("tipo-servicio").value;
+            const depto = document.getElementById("departamento").value;
+            const destino = document.getElementById("destino").value;
+            const tour = document.getElementById("tour-seleccionado").value;
+            const vehiculo = document.getElementById("vehiculo").value;
+            
+            // Recopilamos los datos numéricos de maletas para el mensaje de WhatsApp
+            const maletasGrandes = document.getElementById("maletas-grandes").value;
+            const maletasPequenas = document.getElementById("maletas-pequenas").value;
+            const equipajeStr = `${maletasGrandes} Grandes/Medianas, ${maletasPequenas} de Mano`;
 
-            if (destino === "Destino" || vehiculo === "Vehículo" || !fecha || !hora) {
+            const fecha = document.getElementById("fecha").value;
+            const hora = document.getElementById("hora").value;
+            const pasajeros = document.getElementById("pasajeros").value;
+            const vuelo = document.getElementById("vuelo").value;
+            const precioMostrado = document.getElementById("resultadoPrecio").innerText;
+
+            if (!fecha || !hora) {
                 const errorMsg = idiomaActual === 'es' 
-                    ? "Por favor completa Destino, Vehículo, Fecha y Hora del traslado." 
-                    : "Please complete Destination, Vehicle, Date, and Time of transfer.";
+                    ? "Por favor completa la Fecha y Hora de inicio del servicio." 
+                    : "Please complete the Date and Time of service.";
                 mostrarToast(errorMsg, 'error');
                 return;
             }
 
             let mensajeFinal = "";
 
-            // LÓGICA DE MENSAJE ESPECIAL PARA EL MICROBÚS
-            if (vehiculo === "Microbus") {
-                const mensajeEs = `ML TRAVELING - CONSULTA DE DISPONIBILIDAD MICROBÚS%0A---%0AHola, necesito saber si tienen disponibilidad de microbús desde 5 personas en adelante.%0A%0A*Detalles del traslado:*%0A*Punto de Partida:* ${origen}%0A*Destino:* ${destino} (${depto})%0A*Fecha:* ${fecha}%0A*Hora:* ${hora}%0A*Pasajeros:* ${pasajeros}%0A*Equipaje:* ${equipaje}%0A*Vuelo:* ${vuelo || 'No especificado'}%0A---%0AHe visto su página web oficial y quedo a la espera de su confirmación de tarifa y disponibilidad.`;
+            // CASO MICROBÚS O GRUPAL (Mensaje directo de cotización manual)
+            if (pasajeros >= 5 || vehiculo === "Microbus") {
+                const rutaInfo = (servicio === "tour") ? `un ${tour}` : `un traslado desde Aeropuerto hacia ${destino} (${depto})`;
                 
-                const mensajeEn = `ML TRAVELING - MICROBUS AVAILABILITY REQUEST%0A---%0AHello, I need to check availability for a microbus transfer of 5 or more passengers.%0A%0A*Transfer details:*%0A*Pickup Location:* ${origen}%0A*Destination:* ${destino} (${depto})%0A*Date:* ${fecha}%0A*Time:* ${hora}%0A*Passengers:* ${pasajeros}%0A*Luggage:* ${equipaje}%0A*Flight Number:* ${vuelo || 'Not specified'}%0A---%0AI have visited your official website and await your confirmation of rates and availability.`;
+                mensajeFinal = idiomaActual === 'es'
+                    ? `ML TRAVELING - CONSULTA DE DISPONIBILIDAD MICROBÚS%0A---%0ANecesito saber si tienen disponibilidad de microbús desde 5 personas en adelante para ${rutaInfo}.%0A%0A*Detalles del Viaje:*%0A- *Pasajeros:* ${pasajeros}%0A- *Equipaje:* ${equipajeStr}%0A- *Fecha de Inicio:* ${fecha}%0A- *Hora:* ${hora}%0A---%0AQuedo a la espera de sus tarifas y confirmación de flota Hiace/H1 de Grupo 3.`
+                    : `ML TRAVELING - MICROBUS AVAILABILITY REQUEST%0A---%0AI need to check availability for a group van (5+ passengers) for ${rutaInfo}.%0A%0A*Trip Details:*%0A- *Passengers:* ${pasajeros}%0A- *Luggage:* ${equipajeStr}%0A- *Start Date:* ${fecha}%0A- *Time:* ${hora}%0A---%0AAwaiting your rates and availability for Hiace/H1 vans.`;
+            } 
+            // CASO: TOURS PRIVADOS AUTOMÁTICOS
+            else if (servicio === "tour") {
+                mensajeFinal = idiomaActual === 'es'
+                    ? `ML TRAVELING - RESERVA DE TOUR PRIVADO%0A---%0A*Tour Solicitado:* ${tour}%0A*Unidad:* ${vehiculo}%0A*Pasajeros:* ${pasajeros}%0A*Equipaje:* ${equipajeStr}%0A*Fecha de Inicio:* ${fecha}%0A*Hora de Salida:* ${hora}%0A*Precio Estimado:* ${precioMostrado}%0A---%0AHe visto su catálogo web de tours y me gustaría reservar mi viaje de turismo exclusivo en El Salvador. Estoy de acuerdo con la política de anticipo del 50%. Por favor envíenme el link de pago seguro.`
+                    : `ML TRAVELING - PRIVATE TOUR BOOKING%0A---%0A*Selected Tour:* ${tour}%0A*Vehicle:* ${vehiculo}%0A*Passengers:* ${pasajeros}%0A*Luggage:* ${equipajeStr}%0A*Start Date:* ${fecha}%0A*Pickup Time:* ${hora}%0A*Calculated Price:* ${precioMostrado}%0A---%0AI have viewed your website tour catalog and I want to book my private tour in El Salvador. I agree with the 50% deposit policy. Please send me the secure payment link.`;
+            } 
+            // CASO: TRASLADOS AL AEROPUERTO ESTÁNDAR
+            else {
+                if (destino === "Destino") {
+                    const errorMuni = idiomaActual === 'es' ? "Por favor selecciona un destino de viaje." : "Please select a destination.";
+                    mostrarToast(errorMuni, 'error');
+                    return;
+                }
                 
-                mensajeFinal = idiomaActual === 'es' ? mensajeEs : mensajeEn;
-            } else {
-                // Mensaje estándar para Kia Forte o Mazda CX5
-                const mensajeEs = `ML TRAVELING - NUEVA RESERVACIÓN%0A---%0A*Punto de Partida:* ${origen}%0A*Destino:* ${destino} (${depto})%0A*Vehículo:* ${vehiculo}%0A*Equipaje:* ${equipaje}%0A*Fecha:* ${fecha}%0A*Hora:* ${hora}%0A*Pasajeros:* ${pasajeros}%0A*Vuelo:* ${vuelo || 'No especificado'}%0A*Tarifa Estimada:* ${displayPrice}%0A---%0AHe visto su página web oficial y necesito reservar mi traslado. Estoy de acuerdo con la tarifa y la política de anticipo del 50%. Por favor, envíeme el link de pago seguro para confirmar mi viaje.`;
-                
-                const mensajeEn = `ML TRAVELING - NEW TRANSFER BOOKING%0A---%0A*Pickup Location:* ${origen}%0A*Destination:* ${destino} (${depto})%0A*Vehicle:* ${vehiculo}%0A*Luggage:* ${equipaje}%0A*Date:* ${fecha}%0A*Time:* ${hora}%0A*Passengers:* ${pasajeros}%0A*Flight Number:* ${vuelo || 'Not specified'}%0A*Calculated Fare:* ${displayPrice}%0A---%0AI have visited your official website and I need to book my transfer. I agree with the calculated fare and the 50% deposit policy. Please send me the secure payment link to confirm my reservation.`;
-
-                mensajeFinal = idiomaActual === 'es' ? mensajeEs : mensajeEn;
+                mensajeFinal = idiomaActual === 'es'
+                    ? `ML TRAVELING - RESERVA DE TRASLADO%0A---%0A*Origen:* Aeropuerto El Salvador%0A*Destino:* ${destino} (${depto})%0A*Unidad:* ${vehiculo}%0A*Pasajeros:* ${pasajeros}%0A*Equipaje:* ${equipajeStr}%0A*Fecha:* ${fecha}%0A*Hora:* ${hora}%0A*Número de Vuelo:* ${vuelo || 'No especificado'}%0A*Tarifa Estimada:* ${precioMostrado}%0A---%0AHe cotizado mi traslado ejecutivo en su sitio web. Deseo reservar el servicio y estoy de acuerdo con el anticipo del 50% de reserva. Por favor compártanme el método de pago seguro.`
+                    : `ML TRAVELING - TRANSFER BOOKING%0A---%0A*Pickup:* El Salvador Airport%0A*Destination:* ${destino} (${depto})%0A*Vehicle:* ${vehiculo}%0A*Passengers:* ${pasajeros}%0A*Luggage:* ${equipajeStr}%0A*Date:* ${fecha}%0A*Time:* ${hora}%0A*Flight Number:* ${vuelo || 'Not specified'}%0A*Fare:* ${precioMostrado}%0A---%0AI have calculated my executive transfer on your website. I want to book the service and I agree with the 50% advance deposit. Please share the secure payment link.`;
             }
 
             const whatsappLink = `https://wa.me/50374694306?text=${mensajeFinal}`;
@@ -818,6 +1019,7 @@
 
         window.onload = function() {
             cambiarIdioma('es');
+            actualizarMunicipios();
         }
     </script>
 </body>

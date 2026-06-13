@@ -1,0 +1,168 @@
+HTML
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Newsletter - ML TRAVELING</title>
+    
+    <style>
+        /* Estilos generales solo para la prueba */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f7;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        /* Sección del Newsletter */
+        .newsletter-section {
+            background-color: #1a252f; /* Azul oscuro ejecutivo */
+            color: #ffffff;
+            padding: 60px 30px;
+            text-align: center;
+            border-radius: 12px;
+            max-width: 700px;
+            margin: 0 auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .newsletter-container h2 {
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #f39c12; /* Dorado llamativo para resaltar */
+            letter-spacing: 0.5px;
+        }
+
+        .newsletter-container p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        /* Formulario */
+        .newsletter-form {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap; /* Hace que se adapte a celulares */
+        }
+
+        .newsletter-form input {
+            padding: 15px;
+            font-size: 1rem;
+            border: 2px solid transparent;
+            border-radius: 6px;
+            width: 100%;
+            max-width: 320px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        /* Efecto cuando el usuario hace clic para escribir en el input */
+        .newsletter-form input:focus {
+            border-color: #f39c12;
+        }
+
+        /* Botón de Acción (CTA) */
+        .newsletter-form button {
+            background-color: #e67e22; /* Naranja encendido que invita a hacer clic */
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .newsletter-form button:hover {
+            background-color: #d35400;
+            transform: translateY(-2px); /* Pequeño efecto de flotación */
+        }
+
+        /* Estado del botón cuando está guardando (deshabilitado) */
+        .newsletter-form button:disabled {
+            background-color: #7f8c8d;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Mensajes de respuesta */
+        .form-message {
+            margin-top: 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            min-height: 24px; /* Evita que el contenedor brinque al aparecer el texto */
+        }
+    </style>
+</head>
+<body>
+
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <h2>¿Planeas tu viaje a El Salvador? 🌋</h2>
+            <p>Recibe tips exclusivos de rutas, seguridad y descubre cómo armar tu <strong>Tour Privado de 4 días</strong> por Surf City, la Ruta de las Flores y más para estas Vacaciones Agostinas.</p>
+            
+            <form id="newsletterForm" class="newsletter-form">
+                <input 
+                    type="email" 
+                    id="userEmail" 
+                    placeholder="Tu correo electrónico (ej. viajero@gmail.com)" 
+                    required
+                >
+                <button type="submit" id="submitBtn">Recibir Consejos de Viaje</button>
+            </form>
+            
+            <p id="formMessage" class="form-message"></p>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('newsletterForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Detiene el envío tradicional del formulario para controlar el flujo
+
+            // Seleccionamos los elementos de la página
+            const emailInput = document.getElementById('userEmail').value;
+            const messageDisplay = document.getElementById('formMessage');
+            const submitBtn = document.getElementById('submitBtn');
+
+            // 1. Ponemos al botón en estado de "espera"
+            submitBtn.disabled = true;
+            submitBtn.textContent = "Guardando correo...";
+            messageDisplay.textContent = ""; // Limpiamos mensajes anteriores
+
+            console.log("Capturando el correo del turista de forma local:", emailInput);
+
+            // 2. Simulamos el tiempo de viaje del correo hacia internet (2 segundos)
+            setTimeout(function() {
+                
+                // Aquí simulamos que todo salió perfecto
+                const simulacionExitosa = true; 
+
+                if (simulacionExitosa) {
+                    // Cambiamos el diseño del mensaje a verde (Éxito)
+                    messageDisplay.style.color = "#2ecc71";
+                    messageDisplay.textContent = "¡Perfecto! Tu guía de tours privados va en camino.";
+                    
+                    // Limpiamos la caja de texto para que quede lista para otro usuario
+                    document.getElementById('newsletterForm').reset(); 
+                } else {
+                    // Si algo fallara en la red, mostraría esto en rojo
+                    messageDisplay.style.color = "#e74c3c";
+                    messageDisplay.textContent = "Hubo un problema. Por favor, inténtalo de nuevo.";
+                }
+
+                // 3. Devolvemos el botón a su estado normal para que siga funcionando
+                submitBtn.disabled = false;
+                submitBtn.textContent = "Recibir Consejos de Viaje";
+
+            }, 2000); // 2000 milisegundos = 2 segundos
+        });
+    </script>
+
+</body>
+</html>
