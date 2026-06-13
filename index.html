@@ -809,7 +809,7 @@ Executive personnel transport service in El Salvador. We ensure punctuality and 
                 // 3 Pasajeros: Máximo 3 grandes y 0 pequeñas, o 3 pequeñas. Si no, pasan a la SUV
                 else if (pasajeros === 3) {
                     const casoSoloGrandes = (maletasGrandes <= 3 && maletasPequenas === 0);
-                    const casoSoloPequenas = (maletasPequenas <= 3 && maletasGrandes === 0);
+                    const casoSoloPequenas = (maletasPequenas <= 4 && maletasGrandes === 0);
                     
                     if (!casoSoloGrandes && !casoSoloPequenas) {
                         upgradeASuv = true;
@@ -842,7 +842,7 @@ Executive personnel transport service in El Salvador. We ensure punctuality and 
                 // Límite estricto de maletas grandes en SUV
                 if (maletasGrandes > 4) {
                     maletasGrandes = 4;
-                     maletasPequenas = 0;
+                    
                     document.getElementById("maletas-grandes").value = 4;
                     mostrarToast(
                         idiomaActual === 'es'
